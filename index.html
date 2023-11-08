@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Rick And Morty Fan Site</title>
+        <meta name="keywords" content="palavras chave aqui" />
+        <meta
+            name="description"
+            content="Descrição curta do conteudo da pagina"
+        />
     </head>
-    <body>
-        <div>
+    <body class="conteudo">
+        <div class="conteudo__capa">
             <img src="assets/images/capa_projeto.png" />
         </div>
-        <div>
-            <nav class="botao_navegador">
+        <div class="conteudo__botaoNavegador">
+            <nav>
                 <button>Inicio</button>
                 <button>Episodios</button>
                 <button>Personagens</button>
@@ -19,32 +24,59 @@
                 <button>Contatos</button>
             </nav>
         </div>
-        <main class="conteudo">Aqui vai ficar o conteudo da pagina</main>
-        <footer>
-            <div class="nomes_footer">
-                <span>Ali Saad</span>
-                <span>Lucélia Ribeiro</span>
-                <span>Gregorio De Abreu</span>
-                <span>Hugo Benevides</span>
-                <span>Herbert Chagas</span>
-            </div>
-            <div class="icones_footer">
-                <img src="assets/icons/icone_instagram.png" /><img
-                    src="assets/icons/icone_linkedin.png"
-                />
-                <img src="assets/icons/icone_instagram.png" /><img
-                    src="assets/icons/icone_linkedin.png"
-                />
-                <img src="assets/icons/icone_instagram.png" /><img
-                    src="assets/icons/icone_linkedin.png"
-                />
-                <img src="assets/icons/icone_instagram.png" /><img
-                    src="assets/icons/icone_linkedin.png"
-                />
-                <img src="assets/icons/icone_instagram.png" /><img
-                    src="assets/icons/icone_linkedin.png"
-                />
-            </div>
+        <main class="conteudo__principal">
+            <!-- Dentro da Tag Main vai ficar todo nosso conteudo unico, e tudo que está fora é o que vai se repetir em todas as paginas -->
+            <!-- Aqui são so exemplos de algumas tags que deixei -->
+            <section class="conteudo__principal--esquerda">
+                <h1>Aqui vai ficar o conteudo da pagina</h1>
+                <p>Paragrafos e conteudo principal</p>
+                <article>
+                    post de um fórum, um artigo de revista ou jornal, um post de
+                    um blog, um comentário enviado por um usuário, um gadget ou
+                    widget interativos, ou qualquer outra forma de conteúdo
+                    independente.
+                </article>
+                <article>
+                    post de um fórum, um artigo de revista ou jornal, um post de
+                    um blog, um comentário enviado por um usuário, um gadget ou
+                    widget interativos, ou qualquer outra forma de conteúdo
+                    independente.
+                </article>
+            </section>
+            <aside class="conteudo__principal--direita">
+                <p>
+                    Aqui vai ficar o aside da pagina, conteudo do lado direito
+                    do container principal da pagina
+                </p>
+            </aside>
+            <!-- Até aqui pode ser deletado para colocar o html do conteudo da pagina-->
+        </main>
+        <footer class="footer">
+            <small>
+                <div class="footer__nomes">
+                    <span>Ali Saad</span>
+                    <span>Lucélia Ribeiro</span>
+                    <span>Gregorio De Abreu</span>
+                    <span>Hugo Benevides</span>
+                    <span>Herbert Chagas</span>
+                </div>
+                <div class="footer__icones">
+                    <img src="assets/icons/icone_instagram.png" />
+                    <img src="assets/icons/icone_linkedin.png" />
+
+                    <img src="assets/icons/icone_instagram.png" />
+                    <img src="assets/icons/icone_linkedin.png" />
+
+                    <img src="assets/icons/icone_instagram.png" />
+                    <img src="assets/icons/icone_linkedin.png" />
+
+                    <img src="assets/icons/icone_instagram.png" />
+                    <img src="assets/icons/icone_linkedin.png" />
+
+                    <img src="assets/icons/icone_instagram.png" />
+                    <img src="assets/icons/icone_linkedin.png" />
+                </div>
+            </small>
         </footer>
     </body>
 </html>
