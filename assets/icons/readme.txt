@@ -1,0 +1,1 @@
+Esta pasta contem os icones utilizados no site

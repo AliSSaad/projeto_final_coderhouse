@@ -1,0 +1,1 @@
+Esta pasta contem todas as paginas do site, menos index.html

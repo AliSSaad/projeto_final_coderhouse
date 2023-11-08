@@ -1,0 +1,1 @@
+Esta pasta contem todas as imagens utilizadas no site

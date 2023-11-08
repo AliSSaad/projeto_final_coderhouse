@@ -1,0 +1,1 @@
+Esta pasta contem todos os conteudos JAVASCRIPT do site
