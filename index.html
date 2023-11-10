@@ -16,40 +16,112 @@
         </div>
         <div class="navegador">
             <nav>
-                <button>Inicio</button>
-                <button>Episodios</button>
-                <button>Personagens</button>
-                <button>Forum</button>
-                <button>Galeria</button>
-                <button>Contatos</button>
+                <a href="index.html"><button>Inicio</button></a>
+                <a href="pages/episodios.html"><button>Episodios</button></a>
+                <a href="pages/personagens.html">
+                    <button>Personagens</button>
+                </a>
+                <a href="pages/forum.html"><button>Forum</button></a>
+                <a href="pages/galeria.html"><button>Galeria</button></a>
+                <a href="pages/contatos.html"><button>Contatos</button></a>
             </nav>
         </div>
         <main class="conteudo">
-            <!-- Dentro da Tag Main vai ficar todo nosso conteudo unico, e tudo que está fora é o que vai se repetir em todas as paginas -->
-            <!-- Aqui são so exemplos de algumas tags que deixei -->
             <section class="conteudo__esquerda">
-                <h1>Aqui vai ficar o conteudo da pagina</h1>
-                <p>Paragrafos e conteudo principal</p>
+                <h1>Bem vindos ao Rick And Morty Fans site</h1>
+                <p>
+                    A série animada "Rick and Morty" é uma criação de Dan Harmon
+                    e Justin Roiland e se tornou um fenômeno entre o público
+                    adulto. Ela mescla ficção científica, humor ácido e questões
+                    existenciais de uma forma única. Nosso projeto visa criar um
+                    site temático para celebrar e explorar o universo de "Rick
+                    and Morty".
+                </p>
                 <article>
-                    post de um fórum, um artigo de revista ou jornal, um post de
-                    um blog, um comentário enviado por um usuário, um gadget ou
-                    widget interativos, ou qualquer outra forma de conteúdo
-                    independente.
+                    <iframe
+                        width="210"
+                        height="208"
+                        src="https://www.youtube.com/embed/BKYJ5AIOU9I?si=FgKriVLA-xnc5t4o"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    ></iframe>
+                    <iframe
+                        width="210"
+                        height="208"
+                        src="https://www.youtube.com/embed/GlI3z641Ou4?si=3Y7TcOEQAywAolWz"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    ></iframe>
+                    <iframe
+                        width="210"
+                        height="208"
+                        src="https://www.youtube.com/embed/CmlXb7tTUb8?si=fXINxti4-GIlTu5r"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    ></iframe>
+                    <iframe
+                        width="210"
+                        height="208"
+                        src="https://www.youtube.com/embed/bNAVgXulsW0?si=hJAHK5SlnFdK3dJl"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                    ></iframe>
+                    <br>
+                        Rick and Morty | Season 7 Official Trailer | adult swim
+                        Unity Takes Down The President's Hive Mind | Rick and Morty
+                        | adult swim Inside The Episode: Air Force Wong | Rick and
+                        Morty | adult swim Mighty Sorry (Full Song) | Rick and Morty
+                        | adult swim
+                    </br>
                 </article>
-                <article>
-                    post de um fórum, um artigo de revista ou jornal, um post de
-                    um blog, um comentário enviado por um usuário, um gadget ou
-                    widget interativos, ou qualquer outra forma de conteúdo
-                    independente.
+                <br>
+                    <h2>Vocês Sabiam ?</h2>
+                    <strong>Todos os arrotos de Rick são reais!</strong>
+                    <br/><img src="assets/images/imagem_inicio_arroto.gif">
+                    <p>
+                        Quando Justin Roiland
+                        grava as vozes de Rick, ele marca as falas nas quais quer
+                        incluir arrotos. Ele bebe uma cerveja de baixas calorias
+                        para poder juntar gás no estômago e depois tenta falar as
+                        frases enquanto solta os arrotos no meio. Em um episódio da
+                        primeira temporada, Harmon também sugeriu a Roiland que ele
+                        gravasse as falas de Rick realmente bêbado. O dublador então
+                        bebeu várias doses de tequila e começou a trabalhar. 
+                    </p>
+                    <strong>Pickle Rick é uma homenagem a um episódio de Breaking Bad !</strong>
+                    <br/><img src="assets/images/imagem_inicio_picklesrick.jpg">
+                    <p>
+                        No episódio "Pickle Rick" de Rick and Morty, Rick se transforma
+                        em um pepino para evitar terapia familiar e acaba preso no
+                        esgoto, inspirado em um episódio de Breaking Bad onde
+                        personagens enfrentam desafios usando conhecimento básico. O
+                        criador, Dan Harmon, explora a ideia de quão inteligente
+                        Rick realmente é, testando suas habilidades em um ambiente
+                        hostil sem suas ferramentas.
+                    </p>
                 </article>
             </section>
+            <!-- A ideia e implementar um codigo para puxar de uma Api os post do twiter do canal oficial RickAndMorty -->
             <aside class="conteudo__direita">
-                <p>
-                    Aqui vai ficar o aside da pagina, conteudo do lado direito
-                    do container principal da pagina
+                <p class="postTwiter">
+                    <br/><a href="https://twitter.com/RickandMorty">Rick And Morty</a>
+                    <br/>Ripped and ready - Season 6 coming September 4th
+                    <br/><img src="assets/images/rickandmortytwiter.jpeg" alt="RickAndMorty_twitterPost">
+                </p>
+                <p class="postTwiter">
+                    <br/><a href="https://twitter.com/RickandMorty">Rick And Morty</a>
+                    <br/>November. Rick And Morty is returning in November.#WarnerMediaUpfront @adultswim
+                    <br/><img src="assets/images/rickandmortytwiter1.jpeg"" alt="RickAndMorty_twitterPost">
                 </p>
             </aside>
-            <!-- Até aqui pode ser deletado para colocar o html do conteudo da pagina-->
         </main>
         <footer class="footer">
             <small>
