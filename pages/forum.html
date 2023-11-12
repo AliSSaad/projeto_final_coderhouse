@@ -11,7 +11,7 @@
 
 <body>
     <div class="capa">
-        <img src="assets/images/capa_projeto.png"/>
+        <img src=/assets/images/capa_projeto.png />
     </div>
     <div class="Navegador">
         <nav>
@@ -26,32 +26,6 @@
         </nav>
     </div>
     <main class="conteudo">
-
-        <h3>Tópicos recentes</h3>
-        <ul>
-            <li>
-                <a href="#">Estão gostando dos novos episódios?</a>
-                <span class="data">19/11/23</span>
-            </li>
-            <li>
-                <a href="#">O que você acha dos dubladores da 7a Temporada?</a>
-                <span class="data">20/11/23</span>
-            </li>
-            <li>
-                <a href="#">Rick and Morty no violino elétrico</a>
-                <span class="data">21/11/23</span>
-            </li>
-        </ul>
-        </section>
-        <section>
-            <h3>Crie um tópico</h3>
-            <form action="/forum/topicos/criar" method="post">
-                <input type="text" name="titulo" placeholder="Título do tópico">
-                <textarea name="texto" placeholder="Texto do tópico"></textarea>
-                <input type="submit" value="Criar tópico">
-            </form>
-            </div>
-        </section>
         <section>
             <h3>Últimas respostas</h3>
             </head>
@@ -62,7 +36,7 @@
 
             <body>
                 <div class="mensagem 1">
-                    <img class="bd-placeholder-img rounded me-2" width="20" height="20" src=assets/images/Perfil1.png"
+                    <img class="bd-placeholder-img rounded me-2" width="20" height="20" src=/assets/images/Perfil1.png
                         alt="Imagem de Perfil">
                     <strong class="me-auto">Morty crazy - </strong>
                     <small>30 minutos atrás</small>
@@ -108,41 +82,73 @@
                 <div class="toast-body">Eu vi o Episódio 3, que é fantástico.</div>
                 </div>
                 <ul>
-                    <form action="#">
-                        <textarea placeholder="O que voce acha?"></textarea>
-                        <input type="submit" value="Responda">
-                    </form>
-                </ul>
         </section>
-    </main>
 
-    <footer class="footer">
-        <small>
-            <div class="footer__nomes">
-                <span>Ali Saad</span>
-                <span>Lucélia Ribeiro</span>
-                <span>Gregorio De Abreu</span>
-                <span>Hugo Benevides</span>
-                <span>Herbert Chagas</span>
+        <article>
+            <form action="#">
+                <textarea placeholder="O que voce acha?"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+            </ul>
+        </article>
+
+        <aside>
+            <h3>Tópicos recentes</h3>
+            <ul>
+                <li>
+                    <a href="#">Estão gostando dos novos episódios?</a>
+                    <span class="data">19/11/23</span>
+                </li>
+                <li>
+                    <a href="#">O que você acha dos dubladores da 7a Temporada?</a>
+                    <span class="data">20/11/23</span>
+                </li>
+                <li>
+                    <a href="#">Rick and Morty no violino elétrico</a>
+                    <span class="data">21/11/23</span>
+                </li>
+            </ul>
+            <h3>Crie um tópico</h3>
+            <form action="/forum/topicos/criar" method="post">
+                <input type="text" name="titulo" placeholder="Título do tópico">
+                <textarea name="texto" placeholder="Texto do tópico"></textarea>
+                <input type="submit" value="Criar tópico">
+            </form>
             </div>
-            <div class="footer__icones">
-                <img src="assets/icons/icone_instagram.png" />
-                <img src="assets/icons/icone_linkedin.png" />
+        </aside>
 
-                <img src="assets/icons/icone_instagram.png" />
-                <img src="assets/icons/icone_linkedin.png" />
+</body>
 
-                <img src="assets/icons/icone_instagram.png" />
-                <img src="assets/icons/icone_linkedin.png" />
 
-                <img src="assets/icons/icone_instagram.png" />
-                <img src="assets/icons/icone_linkedin.png" />
+</main>
 
-                <img src="assets/icons/icone_instagram.png" />
-                <img src="assets/icons/icone_linkedin.png" />
-            </div>
-        </small>
-    </footer>
+<footer class="footer">
+    <small>
+        <div class="footer__nomes">
+            <span>Ali Saad</span>
+            <span>Lucélia Ribeiro</span>
+            <span>Gregorio De Abreu</span>
+            <span>Hugo Benevides</span>
+            <span>Herbert Chagas</span>
+        </div>
+        <div class="footer__icones">
+            <img src=/assets/icons/icone_instagram.png />
+            <img src=/assets/icons/icone_linkedin.png />
+
+            <img src=/assets/icons/icone_instagram.png />
+            <img src=/assets/icons/icone_linkedin.png />
+
+            <img src=/assets/icons/icone_instagram.png />
+            <img src=/assets/icons/icone_linkedin.png />
+
+            <img src=/assets/icons/icone_instagram.png />
+            <img src=/assets/icons/icone_linkedin.png />
+
+            <img src=/assets/icons/icone_instagram.png />
+            <img src=/assets/icons/icone_linkedin.png />
+        </div>
+    </small>
+</footer>
 </body>
 
 </html>
