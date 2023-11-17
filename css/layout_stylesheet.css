@@ -15,14 +15,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: #cee8c0;
-  overflow: hidden;
-}
-.conteudo {
-  position: fixed;
-  width: 100%;
-  height: auto;
   overflow: auto;
-  transform: translate(50px, 80px);
 }
 .capa img {
   overflow: hidden;
@@ -31,24 +24,6 @@ html {
   width: 100%;
   height: auto;
   display: flex;
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: auto;
-  width: 100%;
-  text-align: center;
-  background-color: #d9d9d9;
-}
-.footer__icones figure {
-  display: inline-block;
-  margin: 0px 150px 0px 0px;
-  padding-left: 15px;
-}
-.footer__icones figure a {
-  text-decoration: none;
 }
 .navegador {
   transform: translate(0px, -18px);
@@ -79,4 +54,29 @@ html {
 .navegador button:hover {
   transform: scale(110%);
   font-size: 35px;
+}
+.conteudo {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  transform: translate(50px, 80px);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  background-color: #d9d9d9;
+}
+.footer__icones figure {
+  display: inline-block;
+  margin: 0px 150px 0px 0px;
+  padding-left: 15px;
+}
+.footer__icones figure a {
+  text-decoration: none;
 }
