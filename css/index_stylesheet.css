@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "get scwifty";
+  src: url("../assets/fonts/get_schwifty.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("../assets/fonts/JetBrainsMono.ttf");
+}
+.conteudo__esquerda {
+  float: left;
+  width: 70%;
+}
+.conteudo__esquerda--boasVindas {
+  margin: 0px 0px 0px 30%;
+  text-align: center;
+  width: 30%;
+  height: 20%;
+}
+.conteudo__esquerda h1 {
+  font-family: "get scwifty";
+  color: #07b4c2;
+  font-size: 40px;
+  margin-bottom: 5%;
+}
+.conteudo__esquerda p {
+  font-family: "JetBrainsMono";
+  font-size: 16px;
+}
+.conteudo__esquerda--youtube {
+  display: block;
+  width: 1500px;
+  height: auto;
+  margin-bottom: 3%;
+}
+.conteudo__esquerda--Videosyoutube div {
+  display: inline-block;
+  position: relative;
+  width: 15%;
+  height: 50%;
+  margin-left: 1%;
+}
+.conteudo__esquerda--logoYoutube {
+  width: 15%;
+  height: 100%;
+  margin-left: 2%;
+  transform: translateY(20%);
+}
+.conteudo__esquerda--logoYoutube img {
+  width: 100%;
+  height: 100%;
+}
+.conteudo__esquerda--curiosidades {
+  width: 70%;
+}
+.conteudo__esquerda--curiosidades strong {
+  font-size: 30px;
+  text-align: center;
+}
+.conteudo__esquerda--curiosidades img {
+  font-size: 15px;
+  width: 90%;
+  margin-top: 4%;
+}
+.conteudo__esquerda--curiosidades p {
+  font-size: 15px;
+  text-align: justify;
+  width: 90%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.conteudo__esquerda--curiosidades div {
+  display: inline-block;
+  width: 40%;
+  margin-left: 5%;
+}
+.conteudo__esquerda--curiosidades h2 {
+  font-family: "irishgrover";
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 4%;
+}
+.conteudo__direita {
+  position: relative;
+  float: right;
+  top: 0;
+  margin-right: 10%;
+  width: 20%;
+  height: auto;
+}
+.conteudo__direita--postTwiter figure img {
+  width: 90%;
+  height: 90%;
+  border-radius: 15px;
+}
+.conteudo__direita--postTwiter figure figcaption,
+.conteudo__direita--postTwiter p {
+  font-size: 20px;
+}
+.conteudo__direita--postTwiter a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}

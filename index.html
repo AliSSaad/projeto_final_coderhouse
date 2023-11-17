@@ -1,184 +1,245 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Rick And Morty Fan Site</title>
-        <meta name="keywords" 
-        content="Rick and Morty, Fãs, Série animada, Animação, Humor ácido, 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick And Morty Fan Site</title>
+    <meta
+      name="keywords"
+      content="Rick and Morty, Fãs, Série animada, Animação, Humor ácido, 
         Multiverso, Aventuras intergalácticas, Sci-fi, Cultura pop, Entretenimento, 
-        Personagens excêntricos, Episódios, Comédia adulta, Universo paralelo">
+        Personagens excêntricos, Episódios, Comédia adulta, Universo paralelo"
+    />
 
-        <meta
-            name="description"
-            content="pagina inicial do site dedicada a Rick and Morty, 
+    <meta
+      name="description"
+      content="pagina inicial do site dedicada a Rick and Morty, 
             onde exploramos a fundo a série animada através de análises, 
             curiosidades e conteúdo exclusivo. Navegue por um universo de entretenimento, 
             descubra episódios marcantes, e mergulhe no multiverso de referências culturais 
             e humor peculiar que caracterizam a série. Seu destino definitivo para tudo relacionado a Rick and Morty."
-        />
-        <link rel="shortcut icon" href="assets/icons/favicon.png" type="image\x-icon">
-    </head>
-    <body>
-        <div class="capa">
-            <img src="assets/images/capa_projeto.png" />
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/icons/favicon.png"
+      type="image\x-icon"
+    />
+    <link rel="stylesheet" href="css/layout_stylesheet.css" />
+    <link rel="stylesheet" href="css/index_stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <div class="capa">
+        <img src="assets/images/capa_projeto.png" />
+      </div>
+      <nav class="navegador">
+        <a href="index.html"><button>Inicio</button></a>
+        <a href="pages/paginas_episodios/episodios_temporada_um.html"
+          ><button>Episodios</button></a
+        >
+        <a href="pages/personagens.html">
+          <button>Personagens</button>
+        </a>
+        <a href="pages/forum.html"><button>Forum</button></a>
+        <a href="pages/galeria.html"><button>Galeria</button></a>
+        <a href="pages/contatos_inicio.html"><button>Contatos</button></a>
+      </nav>
+    </header>
+    <main class="conteudo">
+      <section class="conteudo__esquerda">
+        <article class="conteudo__esquerda--boasVindas">
+          <h1>Bem vindos ao Rick And Morty Fans site</h1>
+          <p>
+            <b>
+              A série animada "Rick and Morty" é uma criação de Dan Harmon e
+              Justin Roiland e se tornou um fenômeno entre o público adulto. Ela
+              mescla ficção científica, humor ácido e questões existenciais de
+              uma forma única. Nosso projeto visa criar um site temático para
+              celebrar e explorar o universo de "Rick and Morty".
+            </b>
+          </p>
+        </article>
+        <article class="conteudo__esquerda--youtube">
+          <div class="conteudo__esquerda--logoYoutube">
+            <img src="assets/images/youTube-logo.png" alt="Logo Youtube" />
+          </div>
+          <div class="conteudo__esquerda--Videosyoutube">
+            <div>
+              <iframe
+                width="210"
+                height="208"
+                src="https://www.youtube.com/embed/BKYJ5AIOU9I?si=FgKriVLA-xnc5t4o"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p>Rick and Morty | Season 7 Official Trailer | adult swim</p>
+            </div>
+            <div>
+              <iframe
+                width="210"
+                height="208"
+                src="https://www.youtube.com/embed/GlI3z641Ou4?si=3Y7TcOEQAywAolWz"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p>Unity Takes Down The President's Hive Mind | Rick and Morty</p>
+            </div>
+            <div>
+              <iframe
+                width="210"
+                height="208"
+                src="https://www.youtube.com/embed/CmlXb7tTUb8?si=fXINxti4-GIlTu5r"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p>
+                Inside The Episode: Air Force Wong | Rick and Morty | adult swim
+              </p>
+            </div>
+            <div>
+              <iframe
+                width="210"
+                height="208"
+                src="https://www.youtube.com/embed/bNAVgXulsW0?si=hJAHK5SlnFdK3dJl"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p>Mighty Sorry (Full Song) | Rick and Morty | adult swim</p>
+            </div>
+          </div>
+        </article>
+        <article class="conteudo__esquerda--curiosidades">
+          <h2>Vocês Sabiam ?</h2>
+          <div>
+            <strong
+              >Todos os arrotos de Rick <br />
+              são reais!
+            </strong>
+            <img src="assets/images/imagem_inicio_arroto.gif" />
+            <p>
+              Quando Justin Roiland grava as vozes de Rick, ele marca as falas
+              nas quais quer incluir arrotos. Ele bebe uma cerveja de baixas
+              calorias para poder juntar gás no estômago e depois tenta falar as
+              frases enquanto solta os arrotos no meio. Em um episódio da
+              primeira temporada, Harmon também sugeriu a Roiland que ele
+              gravasse as falas de Rick realmente bêbado. O dublador então bebeu
+              várias doses de tequila e começou a trabalhar.
+            </p>
+          </div>
+          <div>
+            <strong>
+              Pickle Rick é uma homenagem a um episódio de Breaking Bad!
+            </strong>
+            <img src="assets/images/imagem_inicio_picklesrick.jpg" />
+            <p>
+              No episódio "Pickle Rick" de Rick and Morty, Rick se transforma em
+              um pepino para evitar terapia familiar e acaba preso no esgoto,
+              inspirado em um episódio de Breaking Bad onde personagens
+              enfrentam desafios usando conhecimento básico. O criador, Dan
+              Harmon, explora a ideia de quão inteligente Rick realmente é,
+              testando suas habilidades em um ambiente hostil sem suas
+              ferramentas.
+            </p>
+          </div>
+        </article>
+      </section>
+      <!-- A ideia e implementar um codigo para puxar de uma Api os post do twiter do canal oficial RickAndMorty -->
+      <aside class="conteudo__direita">
+        <div class="conteudo__direita--postTwiter">
+          <a href="https://twitter.com/RickandMorty">Rick And Morty</a>
+          <figure>
+            <figcaption>
+              Ripped and ready - Season 6 coming September 4th
+            </figcaption>
+            <img
+              src="assets/images/rickandmortytwiter.jpeg"
+              alt="RickAndMorty_twitterPost"
+            />
+          </figure>
         </div>
-        <div class="navegador">
-            <nav>
-                <a href="index.html"><button>Inicio</button></a>
-                <a href="pages/paginas_episodios/episodios_temporada_um.html"><button>Episodios</button></a>
-                <a href="pages/personagens.html">
-                    <button>Personagens</button>
-                </a>
-                <a href="pages/forum.html"><button>Forum</button></a>
-                <a href="pages/galeria.html"><button>Galeria</button></a>
-                <a href="pages/contatos_inicio.html"><button>Contatos</button></a>
-            </nav>
+        <div class="conteudo__direita--postTwiter">
+          <a href="https://twitter.com/RickandMorty">Rick And Morty</a>
+          <figure>
+            <figcaption>
+              November. Rick And Morty is returning in November.
+            </figcaption>
+            <p>#WarnerMediaUpfront @adultswim</p>
+            <img src="assets/images/rickandmortytwiter1.jpeg""
+            alt="RickAndMorty_twitterPost">
+          </figure>
         </div>
-        <main class="conteudo">
-            <section class="conteudo__esquerda">
-                <h1>Bem vindos ao Rick And Morty Fans site</h1>
-                <p>
-                    A série animada "Rick and Morty" é uma criação de Dan Harmon
-                    e Justin Roiland e se tornou um fenômeno entre o público
-                    adulto. Ela mescla ficção científica, humor ácido e questões
-                    existenciais de uma forma única. Nosso projeto visa criar um
-                    site temático para celebrar e explorar o universo de "Rick
-                    and Morty".
-                </p>
-                <article>
-                    <iframe
-                        width="210"
-                        height="208"
-                        src="https://www.youtube.com/embed/BKYJ5AIOU9I?si=FgKriVLA-xnc5t4o"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                    ></iframe>
-                    <iframe
-                        width="210"
-                        height="208"
-                        src="https://www.youtube.com/embed/GlI3z641Ou4?si=3Y7TcOEQAywAolWz"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                    ></iframe>
-                    <iframe
-                        width="210"
-                        height="208"
-                        src="https://www.youtube.com/embed/CmlXb7tTUb8?si=fXINxti4-GIlTu5r"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                    ></iframe>
-                    <iframe
-                        width="210"
-                        height="208"
-                        src="https://www.youtube.com/embed/bNAVgXulsW0?si=hJAHK5SlnFdK3dJl"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                    ></iframe>
-                    <br>
-                        Rick and Morty | Season 7 Official Trailer | adult swim
-                        Unity Takes Down The President's Hive Mind | Rick and Morty
-                        | adult swim Inside The Episode: Air Force Wong | Rick and
-                        Morty | adult swim Mighty Sorry (Full Song) | Rick and Morty
-                        | adult swim
-                    </br>
-                </article>
-                <br>
-                    <h2>Vocês Sabiam ?</h2>
-                    <strong>Todos os arrotos de Rick são reais!</strong>
-                    <br/><img src="assets/images/imagem_inicio_arroto.gif">
-                    <p>
-                        Quando Justin Roiland
-                        grava as vozes de Rick, ele marca as falas nas quais quer
-                        incluir arrotos. Ele bebe uma cerveja de baixas calorias
-                        para poder juntar gás no estômago e depois tenta falar as
-                        frases enquanto solta os arrotos no meio. Em um episódio da
-                        primeira temporada, Harmon também sugeriu a Roiland que ele
-                        gravasse as falas de Rick realmente bêbado. O dublador então
-                        bebeu várias doses de tequila e começou a trabalhar. 
-                    </p>
-                    <strong>Pickle Rick é uma homenagem a um episódio de Breaking Bad !</strong>
-                    <br/><img src="assets/images/imagem_inicio_picklesrick.jpg">
-                    <p>
-                        No episódio "Pickle Rick" de Rick and Morty, Rick se transforma
-                        em um pepino para evitar terapia familiar e acaba preso no
-                        esgoto, inspirado em um episódio de Breaking Bad onde
-                        personagens enfrentam desafios usando conhecimento básico. O
-                        criador, Dan Harmon, explora a ideia de quão inteligente
-                        Rick realmente é, testando suas habilidades em um ambiente
-                        hostil sem suas ferramentas.
-                    </p>
-                </article>
-            </section>
-            <!-- A ideia e implementar um codigo para puxar de uma Api os post do twiter do canal oficial RickAndMorty -->
-            <aside class="conteudo__direita">
-                <p class="postTwiter">
-                    <br/><a href="https://twitter.com/RickandMorty">Rick And Morty</a>
-                    <br/>Ripped and ready - Season 6 coming September 4th
-                    <br/><img src="assets/images/rickandmortytwiter.jpeg" alt="RickAndMorty_twitterPost">
-                </p>
-                <p class="postTwiter">
-                    <br/><a href="https://twitter.com/RickandMorty">Rick And Morty</a>
-                    <br/>November. Rick And Morty is returning in November.#WarnerMediaUpfront @adultswim
-                    <br/><img src="assets/images/rickandmortytwiter1.jpeg"" alt="RickAndMorty_twitterPost">
-                </p>
-            </aside>
-        </main>
-        <footer class="footer">
-            <small>
-                <div class="footer__nomes">
-                    <span>Ali Saad</span>
-                    <span>Lucélia Ribeiro</span>
-                    <span>Gregorio De Abreu</span>
-                    <span>Hugo Benevides</span>
-                    <span>Herbert Chagas</span>
-                </div>
-                <div class="footer__icones">
-                    <!-- Ali Saad -->
-                    <a href="https://www.instagram.com/alissaad90/">
-                        <img src="assets/icons/icone_instagram.png" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/ali-ssaad/">
-                        <img src="assets/icons/icone_linkedin.png" />
-                    </a>
-                    <!-- Lucelia Ribeiro -->
-                    <a href="https://instagram.com/lucelia.a.r">
-                        <img src="assets/icons/icone_instagram.png" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/lucelia-ribeiro">
-                        <img src="assets/icons/icone_linkedin.png" />
-                    </a>
-                    <!-- Gregorio de Abreu -->
-                    <a href="https://instagram.com/gregoriodeabreu">
-                        <img src="assets/icons/icone_instagram.png" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/gregorio-abreu-920623104">
-                        <img src="assets/icons/icone_linkedin.png" />
-                    </a>
-                    <!-- Hugo Benevides -->
-                    <a href="https://instagram.com/cromocronos_tattoo">
-                        <img src="assets/icons/icone_instagram.png" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/hugo-benevides-734327294">
-                        <img src="assets/icons/icone_linkedin.png" />
-                    </a>
-                    <!-- Herbert Chagas -->
-                    <a href="https://instagram.com/herb_co">
-                        <img src="assets/icons/icone_instagram.png" />
-                    </a>
-                    <a href="https://br.linkedin.com/in/herbert-chagas-de-oliveira-a46a10a0">
-                        <img src="assets/icons/icone_linkedin.png" />
-                    </a>
-                </div>
-            </small>
-        </footer>
-    </body>
+      </aside>
+    </main>
+    <footer class="footer">
+      <div class="footer__icones">
+        <!-- Ali Saad -->
+        <figure>
+          <figcaption>Ali Saad</figcaption>
+          <a href="https://www.instagram.com/alissaad90/" target="_blank">
+            <img src="assets/icons/icone_instagram.png" />
+          </a>
+          <a href="https://www.linkedin.com/in/ali-ssaad/" target="_blank">
+            <img src="assets/icons/icone_linkedin.png" />
+          </a>
+        </figure>
+        <!-- Lucelia Ribeiro -->
+        <figure>
+          <figcaption>Lucélia Ribeiro</figcaption>
+          <a href="https://instagram.com/lucelia.a.r" target="_blank">
+            <img src="assets/icons/icone_instagram.png" />
+          </a>
+          <a href="https://www.linkedin.com/in/lucelia-ribeiro" target="_blank">
+            <img src="assets/icons/icone_linkedin.png" />
+          </a>
+        </figure>
+        <!-- Gregorio de Abreu -->
+        <figure>
+          <figcaption>Gregorio de Abreu</figcaption>
+          <a href="https://instagram.com/gregoriodeabreu" target="_blank">
+            <img src="assets/icons/icone_instagram.png" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/gregorio-abreu-920623104"
+            target="_blank"
+          >
+            <img src="assets/icons/icone_linkedin.png" />
+          </a>
+        </figure>
+        <!-- Hugo Benevides -->
+        <figure>
+          <figcaption>Hugo Benevides</figcaption>
+          <a href="https://instagram.com/cromocronos_tattoo" target="_blank">
+            <img src="assets/icons/icone_instagram.png" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hugo-benevides-734327294"
+            target="_blank"
+          >
+            <img src="assets/icons/icone_linkedin.png" />
+          </a>
+        </figure>
+        <!-- Herbert Chagas -->
+        <figure>
+          <figcaption>Herbert Chagas</figcaption>
+          <a href="https://instagram.com/herb_co" target="_blank">
+            <img src="assets/icons/icone_instagram.png" />
+          </a>
+          <a
+            href="https://br.linkedin.com/in/herbert-chagas-de-oliveira-a46a10a0"
+            target="_blank"
+          >
+            <img src="assets/icons/icone_linkedin.png" />
+          </a>
+        </figure>
+      </div>
+    </footer>
+  </body>
 </html>
