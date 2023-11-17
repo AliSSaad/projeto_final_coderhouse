@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "get scwifty";
+  src: url("../assets/fonts/get_schwifty.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("../assets/fonts/JetBrainsMono.ttf");
+}
+.conteudo__esquerda {
+  float: left;
+}
+.conteudo__esquerda--boasVindas {
+  margin: 0px 0px 0px 30%;
+  text-align: center;
+  width: 30%;
+  height: 20%;
+}
+.conteudo__esquerda h1 {
+  font-family: "get scwifty";
+  color: #07b4c2;
+  font-size: 40px;
+}
+.conteudo__esquerda p {
+  font-family: "JetBrainsMono";
+  font-size: 16px;
+}
+.conteudo__esquerda--youtube div {
+  display: inline-block;
+  position: relative;
+  transform: translateY(-20%);
+  width: 15%;
+}
+.conteudo__esquerda--logoYoutube {
+  width: 8%;
+  height: 100%;
+  margin: 0% 0% 0% 0%;
+}
+.conteudo__esquerda--logoYoutube img {
+  width: 100%;
+  height: 100%;
+  margin: 0% 0% 0% 0%;
+}
+.conteudo__direita {
+  position: sticky;
+  float: right;
+  margin-right: 5%;
+  width: 20%;
+  height: 20%;
+}
+.conteudo__direita--postTwiter figure img {
+  width: 90%;
+  height: 90%;
+  border-radius: 15px;
+}
+.conteudo__direita--postTwiter figure figcaption,
+p {
+  font-size: 20px;
+}
+.conteudo__direita--postTwiter a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}

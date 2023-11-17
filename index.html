@@ -19,6 +19,7 @@
         />
         <link rel="shortcut icon" href="assets/icons/favicon.png" type="image\x-icon">
         <link rel="stylesheet" href="css/layout_stylesheet.css">
+        <link rel="stylesheet" href="css/index_stylesheet.css">
     </head>
     <body>
         <header>
@@ -40,59 +41,69 @@
         </header>
         <main class="conteudo">
             <section class="conteudo__esquerda">
-                <h1>Bem vindos ao Rick And Morty Fans site</h1>
-                <p>
-                    A série animada "Rick and Morty" é uma criação de Dan Harmon
-                    e Justin Roiland e se tornou um fenômeno entre o público
-                    adulto. Ela mescla ficção científica, humor ácido e questões
-                    existenciais de uma forma única. Nosso projeto visa criar um
-                    site temático para celebrar e explorar o universo de "Rick
-                    and Morty".
-                </p>
-                <article>
-                    <iframe
-                        width="210"
-                        height="208"
-                        src="https://www.youtube.com/embed/BKYJ5AIOU9I?si=FgKriVLA-xnc5t4o"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                    ></iframe>
-                    <iframe
-                        width="210"
-                        height="208"
-                        src="https://www.youtube.com/embed/GlI3z641Ou4?si=3Y7TcOEQAywAolWz"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                    ></iframe>
-                    <iframe
-                        width="210"
-                        height="208"
-                        src="https://www.youtube.com/embed/CmlXb7tTUb8?si=fXINxti4-GIlTu5r"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                    ></iframe>
-                    <iframe
-                        width="210"
-                        height="208"
-                        src="https://www.youtube.com/embed/bNAVgXulsW0?si=hJAHK5SlnFdK3dJl"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                    ></iframe>
-                    <br>
-                        Rick and Morty | Season 7 Official Trailer | adult swim
-                        Unity Takes Down The President's Hive Mind | Rick and Morty
-                        | adult swim Inside The Episode: Air Force Wong | Rick and
-                        Morty | adult swim Mighty Sorry (Full Song) | Rick and Morty
-                        | adult swim
-                    </br>
+                <div class="conteudo__esquerda--boasVindas">
+                    <h1>Bem vindos ao Rick And Morty Fans site</h1>
+                    <p>
+                        <b>
+                            A série animada "Rick and Morty" é uma criação de Dan Harmon
+                            e Justin Roiland e se tornou um fenômeno entre o público
+                            adulto. Ela mescla ficção científica, humor ácido e questões
+                            existenciais de uma forma única. Nosso projeto visa criar um
+                            site temático para celebrar e explorar o universo de "Rick
+                            and Morty".
+                        </b>
+                    </p>
+                </div>
+                <div class="conteudo__esquerda--logoYoutube"><img src="assets/images/youTube-logo.png" alt="Logo Youtube"></div>
+                <article class="conteudo__esquerda--youtube"> 
+                    <div>
+                        <iframe
+                            width="210"
+                            height="208"
+                            src="https://www.youtube.com/embed/BKYJ5AIOU9I?si=FgKriVLA-xnc5t4o"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                        ></iframe>
+                        <p>Rick and Morty | Season 7 Official Trailer | adult swim</p>
+                    </div>
+                    <div>
+                        <iframe
+                            width="210"
+                            height="208"
+                            src="https://www.youtube.com/embed/GlI3z641Ou4?si=3Y7TcOEQAywAolWz"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                        ></iframe>
+                        <p>Unity Takes Down The President's Hive Mind | Rick and Morty</p>
+                    </div>
+                    <div>
+                        <iframe
+                            width="210"
+                            height="208"
+                            src="https://www.youtube.com/embed/CmlXb7tTUb8?si=fXINxti4-GIlTu5r"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                        ></iframe>
+                        <p>Inside The Episode: Air Force Wong | Rick and Morty | adult swim</p>
+                    </div>
+                    <div>
+                        <iframe
+                            width="210"
+                            height="208"
+                            src="https://www.youtube.com/embed/bNAVgXulsW0?si=hJAHK5SlnFdK3dJl"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                        ></iframe>
+                        <p>Mighty Sorry (Full Song) | Rick and Morty | adult swim</p>
+                    </div>
                 </article>
                 <br>
                     <h2>Vocês Sabiam ?</h2>
@@ -123,16 +134,21 @@
             </section>
             <!-- A ideia e implementar um codigo para puxar de uma Api os post do twiter do canal oficial RickAndMorty -->
             <aside class="conteudo__direita">
-                <p class="postTwiter">
-                    <br/><a href="https://twitter.com/RickandMorty">Rick And Morty</a>
-                    <br/>Ripped and ready - Season 6 coming September 4th
-                    <br/><img src="assets/images/rickandmortytwiter.jpeg" alt="RickAndMorty_twitterPost">
-                </p>
-                <p class="postTwiter">
-                    <br/><a href="https://twitter.com/RickandMorty">Rick And Morty</a>
-                    <br/>November. Rick And Morty is returning in November.#WarnerMediaUpfront @adultswim
-                    <br/><img src="assets/images/rickandmortytwiter1.jpeg"" alt="RickAndMorty_twitterPost">
-                </p>
+                <div class="conteudo__direita--postTwiter">
+                    <a href="https://twitter.com/RickandMorty">Rick And Morty</a>
+                    <figure>
+                        <figcaption>Ripped and ready - Season 6 coming September 4th </figcaption>
+                        <img src="assets/images/rickandmortytwiter.jpeg" alt="RickAndMorty_twitterPost">
+                    </figure>
+                </div>
+                <div class="conteudo__direita--postTwiter">
+                    <a href="https://twitter.com/RickandMorty">Rick And Morty</a>
+                    <figure>
+                        <figcaption>November. Rick And Morty is returning in November.</figcaption>
+                        <p>#WarnerMediaUpfront @adultswim</p>
+                        <img src="assets/images/rickandmortytwiter1.jpeg"" alt="RickAndMorty_twitterPost">
+                    </figure>
+                </div>
             </aside>
         </main>
         <footer class="footer">
