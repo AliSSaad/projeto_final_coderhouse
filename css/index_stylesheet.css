@@ -8,7 +8,7 @@
 }
 .conteudo__esquerda {
   float: left;
-  width: 70%;
+  width: 65%;
 }
 .conteudo__esquerda--boasVindas {
   margin: 0px 0px 0px 30%;
@@ -50,7 +50,7 @@
   height: 100%;
 }
 .conteudo__esquerda--curiosidades {
-  width: 70%;
+  width: 100%;
 }
 .conteudo__esquerda--curiosidades strong {
   font-size: 30px;
@@ -65,39 +65,67 @@
   font-size: 15px;
   text-align: justify;
   width: 90%;
+  height: 500px;
   margin-top: 2%;
   margin-bottom: 10%;
+  overflow: auto;
 }
 
 .conteudo__esquerda--curiosidades div {
   display: inline-block;
-  width: 40%;
-  margin-left: 5%;
+  width: 30%;
 }
 .conteudo__esquerda--curiosidades h2 {
   font-family: "irishgrover";
   font-size: 50px;
   text-align: center;
-  margin-bottom: 4%;
+  margin-bottom: 10%;
+  margin-top: 10%;
 }
 .conteudo__direita {
   position: relative;
   float: right;
   top: 0;
   margin-right: 10%;
-  width: 20%;
+  width: 25%;
   height: auto;
 }
-.conteudo__direita--postTwiter figure img {
-  width: 90%;
-  height: 90%;
-  border-radius: 15px;
-}
-.conteudo__direita--postTwiter figure figcaption,
-.conteudo__direita--postTwiter p {
+.conteudo__direita--logoTwitter {
+  font-weight: bold;
   font-size: 20px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-style: dashed;
+  text-align: center;
 }
-.conteudo__direita--postTwiter a {
+.conteudo__direita img {
+  width: 10%;
+  border-radius: 25%;
+}
+.conteudo__direita--perfilTwitter img {
+  width: 5%;
+  border-radius: 40%;
+}
+.conteudo__direita--perfilTwitter a {
+  font-weight: bold;
+}
+.conteudo__direita--perfilTwitter p {
+  margin: 1% 0% 1% 0%;
+  color: #636060;
+  font-size: 15px;
+}
+.conteudo__direita--postTwitter {
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.conteudo__direita--postTwitter figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30%;
+  margin-top: 5%;
+}
+.conteudo__direita--postTwitter a {
   color: #000;
   font-weight: bold;
   text-decoration: none;
