@@ -25,11 +25,11 @@
 }
 
 .menu ul {
-    list-style-type: none;
     text-align: center;
 }
 
 .menu li {
+    list-style-type: none;
     font-family: "irishgrover";
 }
 
@@ -146,4 +146,3 @@
 .temporada1__episodio11 img {
     width: 300px
 }
-
