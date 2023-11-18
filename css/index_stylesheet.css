@@ -90,6 +90,18 @@
   width: 25%;
   height: auto;
 }
+.conteudo__direita--logoTwitter {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-style: dashed;
+  text-align: center;
+}
+.conteudo__direita img {
+  width: 10%;
+  border-radius: 25%;
+}
 .conteudo__direita--perfilTwitter img {
   width: 5%;
   border-radius: 40%;
