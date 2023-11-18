@@ -1,149 +1,152 @@
 @font-face {
-    font-family: "irishgrover";
-    src: url("../assets/fonts/IrishGrover-Regular.ttf");
-}
-
-@font-face {
-    font-family: "JetBrainsMono";
-    src: url("../assets/fonts/JetBrainsMono.ttf");
+  font-family: "irishgrover";
+  src: url("../assets/fonts/IrishGrover-Regular.ttf");
 }
 
 .menu {
-    font-family: "irishgrover";
-    background-color: #0BB0CC;
-    width: 150px;
-    height: 30px;
-    transform: translate(100px);
-    padding: 20px 40px 20px 40px;
-    margin-top: 40px;
-    overflow: hidden;
-    transition: 1s;
+  font-family: "irishgrover";
+  background-color: #0bb0cc;
+  width: 150px;
+  height: 30px;
+  transform: translate(100px);
+  padding: 20px 40px 20px 40px;
+  margin-top: 40px;
+  overflow: hidden;
+  transition: 1s;
 }
 
 .menu:hover {
-    height: 280px;
+  height: 280px;
 }
 
 .menu ul {
-    list-style-type: none;
-    text-align: center;
+  list-style-type: none;
+  text-align: center;
 }
 
 .menu li {
-    font-family: "irishgrover";
+  font-family: "irishgrover";
+}
+
+.menu li a {
+  text-decoration: none;
+  color: blue;
+}
+
+.menu li a:visited {
+  color: blue;
 }
 
 .menu__temporadas {
-    font-size: 23px;
-    font-weight: bold;
-    font-family: Kopub batang;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: Kopub batang;
 }
 
 .titulos__episodios {
-    font-size: 26px;
-    font-family: "JetBrainsMono";
+  font-size: 26px;
+  font-family: "JetBrainsMono";
 }
 
 .descricao__episodios {
-    font-size: 14px;
-    font-family: "JetBrainsMono";
-    letter-spacing: 11%;
-    line-height: 30px;
+  font-size: 14px;
+  font-family: "JetBrainsMono";
+  letter-spacing: 11%;
+  line-height: 30px;
 }
 
 .temporada1__episodio1 {
-    margin-left: 110px;
+  margin-left: 110px;
 }
 
 .temporada1__episodio1 img {
-    width: 300px;
+  width: 300px;
 }
 
 .temporada1__episodio2 {
-    margin-left: 560px;
-    margin-top: -351px;
+  margin-left: 560px;
+  margin-top: -351px;
 }
 
 .temporada1__episodio2 img {
-    width: 300px
+  width: 300px;
 }
 
 .temporada1__episodio3 {
-    margin-left: 1010px;
-    margin-top: -370px;
+  margin-left: 1010px;
+  margin-top: -370px;
 }
 
 .temporada1__episodio3 img {
-    width: 300px
+  width: 300px;
 }
 
 .temporada1__episodio4 {
-    margin-left: 1460px;
-    margin-top: -400px;
+  margin-left: 1460px;
+  margin-top: -400px;
 }
 
 .temporada1__episodio4 img {
-    width: 300px
+  width: 300px;
 }
 
 .temporada1__episodio5 {
-    margin-left: 110px;
+  margin-left: 110px;
 }
 
 .temporada1__episodio5 img {
-    width: 300px
+  width: 300px;
 }
 
 .temporada1__episodio6 {
-    margin-left: 560px;
-    margin-top: -400px;
+  margin-left: 560px;
+  margin-top: -400px;
 }
 
 .temporada1__episodio6 img {
-    width: 300px
+  width: 300px;
 }
 
 .temporada1__episodio7 {
-    margin-left: 1010px;
-    margin-top: -340px;
+  margin-left: 1010px;
+  margin-top: -340px;
 }
 
 .temporada1__episodio7 img {
-    width: 300px
+  width: 300px;
 }
 
 .temporada1__episodio8 {
-    margin-left: 1460px;
-    margin-top: -340px;
+  margin-left: 1460px;
+  margin-top: -340px;
 }
 
 .temporada1__episodio8 img {
-    width: 300px
+  width: 300px;
 }
 
 .temporada1__episodio9 {
-    margin-left: 110px;
+  margin-left: 110px;
 }
 
 .temporada1__episodio9 img {
-    width: 300px
+  width: 300px;
 }
 
 .temporada1__episodio10 {
-    margin-left: 560px;
-    margin-top: -370px;
+  margin-left: 560px;
+  margin-top: -370px;
 }
 
 .temporada1__episodio10 img {
-    width: 300px
+  width: 300px;
 }
 
 .temporada1__episodio11 {
-    margin-left: 1010px;
-    margin-top: -370px;
+  margin-left: 1010px;
+  margin-top: -370px;
 }
 
 .temporada1__episodio11 img {
-    width: 300px
+  width: 300px;
 }
-
