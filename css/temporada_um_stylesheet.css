@@ -39,8 +39,16 @@
     font-family: Kopub batang;
 }
 
-.menu__temporadas li {
-    text-decoration: none;
+.titulos__episodios {
+    font-size: 26px;
+    font-family: "JetBrainsMono";
+}
+
+.descricao__episodios {
+    font-size: 14px;
+    font-family: "JetBrainsMono";
+    letter-spacing: 11%;
+    line-height: 30px;
 }
 
 .temporada1__episodio1 {
@@ -139,17 +147,3 @@
     width: 300px
 }
 
-
-
-
-.titulos__episodios {
-    font-size: 26px;
-    font-family: "JetBrainsMono";
-}
-
-.descricao__episodios {
-    font-size: 14px;
-    font-family: "JetBrainsMono";
-    letter-spacing: 11%;
-    line-height: 30px;
-}
