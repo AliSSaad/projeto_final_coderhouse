@@ -6,6 +6,7 @@ main {
 
 .coluna__esquerda, .coluna__direita {
     flex-basis: 48%;
+    background-color: #83D2E4;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -62,7 +63,7 @@ textarea, .forum__topico input[type="text"] {
 }
 
 input[type="submit"] {
-    background-color: #4caf50;
+    background-color: #8BCF21;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -80,7 +81,7 @@ ul li {
 }
 
 ul li a {
-    color: #007BFF;
+    color: #2F9331;
     text-decoration: none;
 }
 
