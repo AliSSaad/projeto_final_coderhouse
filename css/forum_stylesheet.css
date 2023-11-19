@@ -19,7 +19,9 @@ main {
     margin: 20px;
 }
 
-.h2 {}
+h2 {
+    text-align: center;
+  }
 
 .coluna__esquerda,
 .coluna__direita {
