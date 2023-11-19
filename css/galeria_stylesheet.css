@@ -57,6 +57,20 @@ header {
   overflow: auto;
   margin: 2% 0% 0% 3%;
 }
+.introdução__galeria {
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  margin: 20px; /* Espaçamento externo */
+}
+.introdução__galeria h1 {
+  font-size: 30px;
+    margin-bottom: 15px;
+}
+.introdução__galeria p {
+  font-size: 20px;
+  line-height: 1.6;
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
 .footer {
   position: relative;
   text-align: center;
