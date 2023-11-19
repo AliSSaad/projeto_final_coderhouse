@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "get scwifty";
+    src: url("../assets/fonts/get_schwifty.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url("../assets/fonts/JetBrainsMono.ttf");
+}
+
+@font-face {
+    font-family: "irishgrover";
+    src: url("../assets/fonts/IrishGrover-Regular.ttf");
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "JetBrainsMono";
+    margin-right: 50px;
+    margin-bottom: 30px
+}
+
+.coluna__esquerda,
+.coluna__direita {
+    flex-basis: 48%;
+    background: rgba(131, 210, 228, 0.4);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.titulo {
+    background-image: radial-gradient(circle at 20.73% 55.16%, #8eb146 0, #77ab42 16.67%, #59a13b 33.33%, #2e9331 50%, #00852a 66.67%, #007a2a 83.33%, #00722f 100%);
+}
+
+.topico {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 135px 135px 125px 135px;
+    -moz-border-radius: 135px 135px 125px 135px;
+    -webkit-border-radius: 135px 135px 125px 135px;
+    background-image: radial-gradient(circle at 20.73% 55.16%, #8eb146 0, #77ab42 16.67%, #59a13b 33.33%, #2e9331 50%, #00852a 66.67%, #007a2a 83.33%, #00722f 100%);
+}
+
+.topico__img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.topico-titulo a {
+    color: #E7E0DB;
+    text-decoration: none;
+    font-family: "JetBrainsMono";
+}
+
+.user {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 15px 15px 16px 15px;
+    -moz-border-radius: 15px 15px 16px 15px;
+    -webkit-border-radius: 15px 15px 16px 15px;
+    background: rgba(71, 115, 133, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.user__img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user__name {
+    font-weight: bold;
+    font-size: 20px
+}
+
+.user__resposta {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    background: rgba( 139, 207, 33, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.form__resposta {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 90;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.form__resposta textarea {
+    width: 60%;
+    height: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form__resposta input[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    background-color: #8BCF21;
+    color: #fff;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.forum__topico {
+    margin-top: 30px;
+}
+
+.forum__topico input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: horizontal;
+}
+
+input[type="submit"] {
+    width: 30%;
+    background-color: #8BCF21;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 30px;
+}
+
+ul li a {
+    color: #2F9331;
+    text-decoration: none;
+    font-family: "JetBrainsMono";
+}
+
+.titulo1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "JetBrainsMono";
+}
+
+.criar__topico {
+    margin-top: 20px;
+    color: #333;
+
+}

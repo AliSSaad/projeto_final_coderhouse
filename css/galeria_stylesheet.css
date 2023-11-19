@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "irishgrover";
+  src: url("../assets/fonts/IrishGrover-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html,
+header {
+  width: 100%;
+  height: auto;
+  background-color: #cee8c0;
+  overflow-x: hidden;
+}
+.capa img {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+.navegador {
+  position: relative;
+  z-index: 3;
+  transform: translate(10px, -25px);
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+}
+.navegador a {
+  text-decoration: none;
+}
+.navegador button {
+  font-family: "irishgrover";
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: #2f9331;
+  margin: 0px -4px;
+  border-color: #2f9331;
+  border-style: ridge;
+  display: inline-block;
+  width: calc((100% / 6));
+  height: 50px;
+  transition: 1s all;
+  text-shadow: 1.5px 1.5px 1.5px black;
+}
+.navegador button:hover {
+  transform: scale(110%);
+  font-size: 35px;
+}
+.conteudo {
+  position: sticky;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  margin: 2% 0% 0% 3%;
+}
+.introdução__galeria {
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  margin: 20px; /* Espaçamento externo */
+}
+.introdução__galeria h1 {
+  font-size: 30px;
+    margin-bottom: 15px;
+}
+.introdução__galeria p {
+  font-size: 20px;
+  line-height: 1.6;
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+.footer {
+  position: relative;
+  text-align: center;
+  background-color: #d9d9d9;
+}
+.footer__icones figure {
+  display: inline-block;
+  margin: 0px 150px 0px 0px;
+  padding-left: 15px;
+}
+.footer__icones figure a {
+  text-decoration: none;
+}

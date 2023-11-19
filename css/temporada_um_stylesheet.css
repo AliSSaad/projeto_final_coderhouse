@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "irishgrover";
+    src: url("../assets/fonts/IrishGrover-Regular.ttf");
+}
+
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url("../assets/fonts/JetBrainsMono.ttf");
+}
+
+.menu {
+    font-family: "irishgrover";
+    background-color: #0bb0cc;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    transform: translate(100px);
+    padding: 20px 40px 20px 40px;
+    margin-top: 40px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.menu:hover {
+    height: 280px;
+}
+
+.menu li {
+    list-style-type: none;
+    font-family: "irishgrover";
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a:visited {
+    color: black;
+}
+
+.menu__temporadas {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Kopub batang;
+}
+
+.episodio {
+    width: 500px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    font-family: "JetBrainsMono";
+    font-size: 20px;
+    word-spacing: 10px;
+    text-align: justify;
+}
+
+.episodio img {
+    width: 500px;
+    border-radius: 25px;
+}
+
+.episodio a {
+    text-decoration: none;
+    text-align: start;
+    color: black;
+}
+
+.episodio__descricao {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    word-spacing: 10px;
+   }
+
+.episodio__titulo {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.dropdown_menu img {
+    width: 20px;
+    margin-left: 335px;
+    margin-top: -38px;
+    position:absolute;
+    background-color: #0bb0cc;
+}
+

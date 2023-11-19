@@ -6,29 +6,35 @@
     <title>Rick And Morty Fan Site</title>
     <meta
       name="keywords"
-      content="Contato Rick and Morty, Criadores do site, Equipe, Dúvidas, Sugestões, 
-        Parcerias, Colaborações, Fanpage, Fale Conosco, Multiverso, Universo de Rick and Morty"
+      content="Rick and Morty, Fãs, Série animada, Animação, Humor ácido, 
+        Multiverso, Aventuras intergalácticas, Sci-fi, Cultura pop, Entretenimento, 
+        Personagens excêntricos, Episódios, Comédia adulta, Universo paralelo"
     />
+
     <meta
       name="description"
-      content="Entre em contato conosco para qualquer dúvida, 
-            sugestão ou parceria relacionada ao fascinante universo de Rick and Morty. 
-            A pagina apresenta o instagram e o facebook de todos os colaboradores do rick and morty fan site. "
+      content="pagina inicial do site dedicada a Rick and Morty, 
+            onde exploramos a fundo a série animada através de análises, 
+            curiosidades e conteúdo exclusivo. Navegue por um universo de entretenimento, 
+            descubra episódios marcantes, e mergulhe no multiverso de referências culturais 
+            e humor peculiar que caracterizam a série. Seu destino definitivo para tudo relacionado a Rick and Morty."
     />
     <link
       rel="shortcut icon"
-      href="../assets/icons/favicon.png"
+      href="assets/icons/favicon.png"
       type="image\x-icon"
     />
+    <link rel="stylesheet" href="../css/layout_stylesheet.css" />
+    <link rel="stylesheet" href="../css/contatos_stylesheet.css" />
   </head>
   <body>
-    <div class="capa">
-      <img src="../assets/images/capa_projeto.png" alt="cover_rickandmorty" />
-    </div>
-    <div class="Navegador">
-      <nav>
+    <header>
+      <div class="capa">
+        <img src="../assets/images/capa_projeto.png" />
+      </div>
+      <nav class="navegador">
         <a href="../index.html"><button>Inicio</button></a>
-        <a href="paginas_episodios/episodios_temporada_um.html"
+        <a paginas_episodios/episodios_temporada_um.html"
           ><button>Episodios</button></a
         >
         <a href="personagens.html">
@@ -38,13 +44,12 @@
         <a href="galeria.html"><button>Galeria</button></a>
         <a href="contatos_inicio.html"><button>Contatos</button></a>
       </nav>
-    </div>
-    <main class="conteudo">
+    </header>
+    <main class="conteudo__pegadinha">
       <h1>Nossos contatos estão em outro universo entre no portal:</h1>
       <img
         src="../assets/images/imagem_contatosdedos.png"
         alt="image_rickandmorty"
-        width="600px"
       />
       <a href="contatos_fim.html">
         <img
@@ -54,30 +59,30 @@
       </a>
     </main>
     <footer class="footer">
-      <small>
-        <div class="footer__nomes">
-          <span>Ali Saad</span>
-          <span>Lucélia Ribeiro</span>
-          <span>Gregorio De Abreu</span>
-          <span>Hugo Benevides</span>
-          <span>Herbert Chagas</span>
-        </div>
-        <div class="footer__icones">
-          <!-- Ali Saad -->
+      <div class="footer__icones">
+        <!-- Ali Saad -->
+        <figure>
+          <figcaption>Ali Saad</figcaption>
           <a href="https://www.instagram.com/alissaad90/" target="_blank">
             <img src="../assets/icons/icone_instagram.png" />
           </a>
           <a href="https://www.linkedin.com/in/ali-ssaad/" target="_blank">
             <img src="../assets/icons/icone_linkedin.png" />
           </a>
-          <!-- Lucelia Ribeiro -->
+        </figure>
+        <!-- Lucelia Ribeiro -->
+        <figure>
+          <figcaption>Lucélia Ribeiro</figcaption>
           <a href="https://instagram.com/lucelia.a.r" target="_blank">
             <img src="../assets/icons/icone_instagram.png" />
           </a>
           <a href="https://www.linkedin.com/in/lucelia-ribeiro" target="_blank">
             <img src="../assets/icons/icone_linkedin.png" />
           </a>
-          <!-- Gregorio de Abreu -->
+        </figure>
+        <!-- Gregorio de Abreu -->
+        <figure>
+          <figcaption>Gregorio de Abreu</figcaption>
           <a href="https://instagram.com/gregoriodeabreu" target="_blank">
             <img src="../assets/icons/icone_instagram.png" />
           </a>
@@ -87,7 +92,10 @@
           >
             <img src="../assets/icons/icone_linkedin.png" />
           </a>
-          <!-- Hugo Benevides -->
+        </figure>
+        <!-- Hugo Benevides -->
+        <figure>
+          <figcaption>Hugo Benevides</figcaption>
           <a href="https://instagram.com/cromocronos_tattoo" target="_blank">
             <img src="../assets/icons/icone_instagram.png" />
           </a>
@@ -97,7 +105,10 @@
           >
             <img src="../assets/icons/icone_linkedin.png" />
           </a>
-          <!-- Herbert Chagas -->
+        </figure>
+        <!-- Herbert Chagas -->
+        <figure>
+          <figcaption>Herbert Chagas</figcaption>
           <a href="https://instagram.com/herb_co" target="_blank">
             <img src="../assets/icons/icone_instagram.png" />
           </a>
@@ -107,8 +118,8 @@
           >
             <img src="../assets/icons/icone_linkedin.png" />
           </a>
-        </div>
-      </small>
+        </figure>
+      </div>
     </footer>
   </body>
 </html>
