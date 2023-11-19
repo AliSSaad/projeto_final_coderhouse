@@ -1,99 +1,98 @@
 
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
 
-.conteudo__esquerda {
-    float: left;
-    width: 70%;
+.coluna1, .coluna__direita {
+    flex: 1;
+}
+
+.coluna__esquerda, .coluna__direita {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .titulo {
     color: #333;
-    text-align: center;
-    margin-top: 20px;
 }
 
 .topico {
+    margin-top: 20px;
     display: flex;
     align-items: center;
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
 }
 
 .topico__img {
-    width: 150px;
-    height: 150px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
-.topico__titulo a {
-    color: #333;
+.topico-titulo a {
+    color: #007BFF;
     text-decoration: none;
 }
 
 .user {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    margin-top: 10px;
 }
 
-.user__img {
-    margin-right: 10px;
+.user img {
     border-radius: 50%;
+    margin-right: 5px;
 }
 
 .user__name {
     font-weight: bold;
-    margin-right: 5px;
-}
-
-.user__time {
-    font-size: 12px;
-    color: #666;
 }
 
 .user__resposta {
-    margin-top: 10px;
+    margin-left: 25px;
 }
 
-.article__conteudo__esquerda {
-    width: 60%; 
-    margin: 20px auto;
+form, .forum__topico {
+    margin-top: 20px;
 }
 
-.form__resposta {
-    width: 30%;
+textarea, .forum__topico input[type="text"] {
+    width: 100%;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.form__resposta {
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
-    border: groove;
     border-radius: 5px;
-    resize: vertical:
+    resize: vertical;
 }
 
-.form__resposta input[type="submit"] {
-    width: 20%;
-    padding: 5px;
+input[type="submit"] {
     background-color: #4caf50;
     color: #fff;
-    border: groove;
+    border: none;
     border-radius: 5px;
+    padding: 10px 15px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-/* Efeito de hover para o botão de enviar */
-.form__resposta input[type="submit"]:hover {
-    background-color: #45a049;
+ul {
+    list-style: none;
+    padding: 0;
 }
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.criar__topico {
+    margin-top: 20px;
+    color: #333;
+}
+
+
+
