@@ -6,7 +6,7 @@
   display: block;
 }
 .card {
-    max-width: 900px;
+    width: 95%;
     height: 160px;
     margin-top: 40px;  
     margin-bottom: 20px;
