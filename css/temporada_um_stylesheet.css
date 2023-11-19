@@ -81,3 +81,11 @@
     margin-bottom: 30px;
 }
 
+.dropdown_menu img {
+    width: 20px;
+    margin-left: 335px;
+    margin-top: -38px;
+    position:absolute;
+    background-color: #0bb0cc;
+}
+
