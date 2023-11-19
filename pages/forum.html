@@ -1,172 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rick And Morty Fan Site</title>
-    <meta name="keywords" content="Discussão, Comunidade, Interação, Tópico" />
-    <meta name="description" content="Um lugar para conversar sobre a serie" />
-    <link rel="shortcut icon" href="../assets/icons/favicon.png" type="image\x-icon" />
-    <link rel="stylesheet" href="../css/layout_stylesheet.css" />
-    <link rel="stylesheet" href="../css/forum_stylesheet.css" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rick And Morty Fan Site</title>
+  <meta name="keywords" content="Discussão, Comunidade, Interação, Tópico">
+  <meta name="description" content="Um lugar para conversar sobre a serie">
+  <link rel="shortcut icon" href="../assets/icons/favicon.png" type="image\x-icon">
+  <link rel="stylesheet" href="../css/layout_stylesheet.css">
+  <link rel="stylesheet" href="../css/forum_stylesheet.css">
 </head>
-
 <body>
-    <header>
-        <div class="capa">
-            <img src="../assets/images/capa_projeto.png" />
-        </div>
-        <nav class="navegador">
-            <a href="../index.html"><button>Inicio</button></a>
-            <a href="paginas_episodios/episodios_temporada_um.html"><button>Episodios</button></a>
-            <a href="personagens.html">
-                <button>Personagens</button>
-            </a>
-            <a href="forum.html"><button>Forum</button></a>
-            <a href="galeria.html"><button>Galeria</button></a>
-            <a href="contatos_inicio.html"><button>Contatos</button></a>
-        </nav>
-    </header>
-
-    <main class="conteudo">
-        <section class="conteudo__esquerda">
-            <h2>Últimas respostas</h2>
-
-            <div class="topico">
-                <img src="../assets/images/Perfil0.png" alt="Foto de Perfil" width="150" height="150" float="left">
-                <h3 class="topico-titulo"><a>Estão gostando dos novos episódios?</a></h3>
-            </div>
-
-
-            <div class="user">
-                <img width="20" height="20" src="../assets/images/Perfil1.png" alt="Imagem de Perfil">
-                <strong class="user__name">Morty crazy - </strong>
-                <small class="user__time">30 minutos atrás</small>
-            </div>
-            <div class="user__resposta">Eu vi o Episódio 3, que é fantástico.</div>
-
-            <div class="user">
-                <img width="20" height="20" src="../assets/images/Perfil2.png" alt="Imagem de Perfil">
-                <strong class="user__name">Lubah234</strong>
-                <small class="user__time">11 minutos atrás</small>
-            </div>
-            <div class="user__resposta">Qual alienígena é esse?</div>
-
-
-            <div class="user">
-                <img width="20" height="20" src="../assets/images/Perfil3.png" alt="Imagem de Perfil">
-                <strong class="user__name">Jerry frontoso</strong>
-                <small class="user__time">10 minutos atrás</small>
-            </div>
-            <div class="user__resposta">Adorei a S7E2, mas o S7E1 foi uma droga, então... né.</div>
-
-            <div class="user">
-                <img width="20" height="20" src="../assets/images/Perfil4.png" alt="Imagem de Perfil">
-                <strong class="user__name">panic09_bef</strong>
-                <small class="user__time">07 minutos atrás</small>
-            </div>
-            <div class="user__resposta">Eu gostei de todos os episódios do S6, para ser sincero.</div>
-
-            <div class="user">
-                <img width="20" height="20" src="../assets/images/Perfil5.png" alt="Imagem de Perfil">
-                <strong class="user__name">Futurt_670</strong>
-                <small class="user__time">05 minutos atrás</small>
-            </div>
-            <div class="user__resposta">Eu vi o Episódio 3, que é fantástico.</div>
-
-        </section>
-
-        <article class="conteudo__esquerda-topico">
-            <form class="form__resposta" action="#">
-                <textarea placeholder="O que voce acha?"></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-        </article>
-
-        <aside class="conteudo__direita">
-            <h2>Tópicos recentes</h2>
-            <ul>
-                <li>
-                    <a href="#">
-                        <h3>Estão gostando dos novos episódios?</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <h3>O que você acha dos dubladores da 7a Temporada?</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <h3>Rick and Morty no violino elétrico</h3>
-                    </a>
-                </li>
-            </ul>
-            <h3 class="criar__topico">Crie um tópico</h3>
-            <form class="form__criar-topico" action="/forum/topicos/criar" method="post">
-                <input type="text" name="titulo" placeholder="Título do tópico">
-                <textarea name="texto" placeholder="Texto do tópico"></textarea>
-                <input type="submit" value="Criar tópico">
-            </form>
-        </aside>
-    </main>
-
-    <footer class="footer">
-        <div class="footer__icones">
-            <!-- Ali Saad -->
-            <figure>
-                <figcaption>Ali Saad</figcaption>
-                <a href="https://www.instagram.com/alissaad90/" target="_blank">
-                    <img src="../assets/icons/icone_instagram.png" />
-                </a>
-                <a href="https://www.linkedin.com/in/ali-ssaad/" target="_blank">
-                    <img src="../assets/icons/icone_linkedin.png" />
-                </a>
-            </figure>
-            <!-- Lucelia Ribeiro -->
-            <figure>
-                <figcaption>Lucélia Ribeiro</figcaption>
-                <a href="https://instagram.com/lucelia.a.r" target="_blank">
-                    <img src="../assets/icons/icone_instagram.png" />
-                </a>
-                <a href="https://www.linkedin.com/in/lucelia-ribeiro" target="_blank">
-                    <img src="../assets/icons/icone_linkedin.png" />
-                </a>
-            </figure>
-            <!-- Gregorio de Abreu -->
-            <figure>
-                <figcaption>Gregorio de Abreu</figcaption>
-                <a href="https://instagram.com/gregoriodeabreu" target="_blank">
-                    <img src="../assets/icons/icone_instagram.png" />
-                </a>
-                <a href="https://www.linkedin.com/in/gregorio-abreu-920623104" target="_blank">
-                    <img src="../assets/icons/icone_linkedin.png" />
-                </a>
-            </figure>
-            <!-- Hugo Benevides -->
-            <figure>
-                <figcaption>Hugo Benevides</figcaption>
-                <a href="https://instagram.com/cromocronos_tattoo" target="_blank">
-                    <img src="../assets/icons/icone_instagram.png" />
-                </a>
-                <a href="https://www.linkedin.com/in/hugo-benevides-734327294" target="_blank">
-                    <img src="../assets/icons/icone_linkedin.png" />
-                </a>
-            </figure>
-            <!-- Herbert Chagas -->
-            <figure>
-                <figcaption>Herbert Chagas</figcaption>
-                <a href="https://instagram.com/herb_co" target="_blank">
-                    <img src="../assets/icons/icone_instagram.png" />
-                </a>
-                <a href="https://br.linkedin.com/in/herbert-chagas-de-oliveira-a46a10a0" target="_blank">
-                    <img src="../assets/icons/icone_linkedin.png" />
-                </a>
-            </figure>
-        </div>
-    </footer>
+  <header>
+    <div class="capa"><img src="../assets/images/capa_projeto.png" alt="capa_projeto"></div>
+    <nav class="navegador">
+      <a href="../index.html"><button>Inicio</button></a> <a href="paginas_episodios/episodios_temporada_um.html"><button>Episodios</button></a> <a href="personagens.html"><button>Personagens</button></a> <a href="forum.html"><button>Forum</button></a> <a href="galeria.html"><button>Galeria</button></a> <a href="contatos_inicio.html"><button>Contatos</button></a>
+    </nav>
+  </header>
+  <main class="conteudo">
+    <section class="conteudo__esquerda">
+      <h2>Últimas respostas</h2>
+      <div class="topico">
+        <img src="../assets/images/Perfil0.png" alt="Foto de Perfil" width="150" height="150" float="left">
+        <h3 class="topico-titulo"><a>Estão gostando dos novos episódios?</a></h3>
+      </div>
+      <div class="user">
+        <img width="20" height="20" src="../assets/images/Perfil1.png" alt="Imagem de Perfil"> <strong class="user__name">Morty crazy -</strong> <small class="user__time">30 minutos atrás</small>
+      </div>
+      <div class="user__resposta">
+        Eu vi o Episódio 3, que é fantástico.
+      </div>
+      <div class="user">
+        <img width="20" height="20" src="../assets/images/Perfil2.png" alt="Imagem de Perfil"> <strong class="user__name">Lubah234</strong> <small class="user__time">11 minutos atrás</small>
+      </div>
+      <div class="user__resposta">
+        Qual alienígena é esse?
+      </div>
+      <div class="user">
+        <img width="20" height="20" src="../assets/images/Perfil3.png" alt="Imagem de Perfil"> <strong class="user__name">Jerry frontoso</strong> <small class="user__time">10 minutos atrás</small>
+      </div>
+      <div class="user__resposta">
+        Adorei a S7E2, mas o S7E1 foi uma droga, então... né.
+      </div>
+      <div class="user">
+        <img width="20" height="20" src="../assets/images/Perfil4.png" alt="Imagem de Perfil"> <strong class="user__name">panic09_bef</strong> <small class="user__time">07 minutos atrás</small>
+      </div>
+      <div class="user__resposta">
+        Eu gostei de todos os episódios do S6, para ser sincero.
+      </div>
+      <div class="user">
+        <img width="20" height="20" src="../assets/images/Perfil5.png" alt="Imagem de Perfil"> <strong class="user__name">Futurt_670</strong> <small class="user__time">05 minutos atrás</small>
+      </div>
+      <div class="user__resposta">
+        Eu vi o Episódio 3, que é fantástico.
+      </div>
+    </section>
+    <article class="conteudo__esquerda-topico">
+      <form class="form__resposta" action="#">
+        <textarea placeholder="O que voce acha?"></textarea> <input type="submit" value="Enviar">
+      </form>
+    </article>
+    <aside class="conteudo__direita">
+      <h2>Tópicos recentes</h2>
+      <ul>
+        <li>
+          <a href="#">
+          <h3>Estão gostando dos novos episódios?</h3></a>
+        </li>
+        <li>
+          <a href="#">
+          <h3>O que você acha dos dubladores da 7a Temporada?</h3></a>
+        </li>
+        <li>
+          <a href="#">
+          <h3>Rick and Morty no violino elétrico</h3></a>
+        </li>
+      </ul>
+      <h3 class="criar__topico">Crie um tópico</h3>
+      <form class="form__criar-topico" action="/forum/topicos/criar" method="post">
+        <input type="text" name="titulo" placeholder="Título do tópico"> 
+        <textarea name="texto" placeholder="Texto do tópico"></textarea> <input type="submit" value="Criar tópico">
+      </form>
+    </aside>
+  </main>
+  <footer class="footer">
+    <div class="footer__icones">
+      <!-- Ali Saad -->
+      <figure>
+        <figcaption>
+          Ali Saad
+        </figcaption><a href="https://www.instagram.com/alissaad90/" target="_blank"><img src="../assets/icons/icone_instagram.png" alt="icone_instagram"></a> <a href="https://www.linkedin.com/in/ali-ssaad/" target="_blank"><img src="../assets/icons/icone_linkedin.png" alt="icone_linkedin"></a>
+      </figure><!-- Lucelia Ribeiro -->
+      <figure>
+        <figcaption>
+          Lucélia Ribeiro
+        </figcaption><a href="https://instagram.com/lucelia.a.r" target="_blank"><img src="../assets/icons/icone_instagram.png" alt="icone_instagram"></a> <a href="https://www.linkedin.com/in/lucelia-ribeiro" target="_blank"><img src="../assets/icons/icone_linkedin.png" alt="icone_linkedin"></a>
+      </figure><!-- Gregorio de Abreu -->
+      <figure>
+        <figcaption>
+          Gregorio de Abreu
+        </figcaption><a href="https://instagram.com/gregoriodeabreu" target="_blank"><img src="../assets/icons/icone_instagram.png" alt="icone_instagram"></a> <a href="https://www.linkedin.com/in/gregorio-abreu-920623104" target="_blank"><img src="../assets/icons/icone_linkedin.png" alt="icone_linkedin"></a>
+      </figure><!-- Hugo Benevides -->
+      <figure>
+        <figcaption>
+          Hugo Benevides
+        </figcaption><a href="https://instagram.com/cromocronos_tattoo" target="_blank"><img src="../assets/icons/icone_instagram.png" alt="icone_instagram"></a> <a href="https://www.linkedin.com/in/hugo-benevides-734327294" target="_blank"><img src="../assets/icons/icone_linkedin.png" alt="icone_linkedin"></a>
+      </figure><!-- Herbert Chagas -->
+      <figure>
+        <figcaption>
+          Herbert Chagas
+        </figcaption><a href="https://instagram.com/herb_co" target="_blank"><img src="../assets/icons/icone_instagram.png" alt="icone_instagram"></a> <a href="https://br.linkedin.com/in/herbert-chagas-de-oliveira-a46a10a0" target="_blank"><img src="../assets/icons/icone_linkedin.png" alt="icone_linkedin"></a>
+      </figure>
+    </div>
+  </footer>
 </body>
-
 </html>
