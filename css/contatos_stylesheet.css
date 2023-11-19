@@ -5,10 +5,12 @@ article {
   text-align: center;
 }
 .contato {
-  width: 33%;
+  width: 25%;
   height: 30%;
   display: inline-block;
   border: solid;
+  border-color: #2f9331;
+  border-radius: 20%;
   text-align: center;
   padding-top: 1%;
 }
@@ -29,4 +31,14 @@ article {
   overflow: auto;
   text-align: justify;
   margin-left: 25%;
+}
+.conteudo__pegadinha {
+  margin-left: 25%;
+}
+.conteudo__pegadinha h1 {
+  margin-top: 2%;
+}
+.conteudo__pegadinha img {
+  margin: 5% 0% 10% 2%;
+  width: 25%;
 }

@@ -6,15 +6,40 @@
   font-family: "JetBrainsMono";
   src: url("../assets/fonts/JetBrainsMono.ttf");
 }
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
 .conteudo__esquerda {
   float: left;
   width: 65%;
 }
 .conteudo__esquerda--boasVindas {
-  margin: 0px 0px 0px 30%;
+  margin: 0px 0px 0px 5%;
   text-align: center;
-  width: 30%;
+  width: 45%;
   height: 20%;
+  display: inline-block;
+}
+.conteudo__esquerda--inicio div {
+  display: inline-block;
+}
+.conteudo__esquerda--banner {
+  width: 30%;
+  margin: 0% 0% 0% 10%;
+  border: solid;
+}
+.conteudo__esquerda--banner img {
+  width: 50%;
+  padding: 2% 2% 2% 25%;
+}
+.conteudo__esquerda--banner h2 {
+  text-align: center;
+  font-family: "irishgrover";
+  font-size: 25px;
+  width: 80%;
+  padding: 2% 2% 2% 10%;
 }
 .conteudo__esquerda h1 {
   font-family: "get scwifty";
@@ -28,6 +53,7 @@
 }
 .conteudo__esquerda--youtube {
   display: block;
+  margin-left: 5%;
   width: 1500px;
   height: auto;
   margin-bottom: 3%;
@@ -126,8 +152,5 @@
   margin-top: 5%;
 }
 .conteudo__direita--postTwitter a {
-  color: #000;
-  font-weight: bold;
-  text-decoration: none;
   font-size: 16px;
 }
