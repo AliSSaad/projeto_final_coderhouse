@@ -31,7 +31,7 @@
     </header>
 
     <main class="conteudo">
-        <section class="conteudo_esquerda">
+        <section class="conteudo__esquerda">
             <h2>Últimas respostas</h2>
 
             <div class="topico">
@@ -42,50 +42,50 @@
 
             <div class="user">
                 <img width="20" height="20" src="../assets/images/Perfil1.png" alt="Imagem de Perfil">
-                <strong class="user-name">Morty crazy - </strong>
-                <small class="user-time">30 minutos atrás</small>
+                <strong class="user__name">Morty crazy - </strong>
+                <small class="user__time">30 minutos atrás</small>
             </div>
-            <div>Eu vi o Episódio 3, que é fantástico.</div>
+            <div class="user__resposta">Eu vi o Episódio 3, que é fantástico.</div>
 
             <div class="user">
                 <img width="20" height="20" src="../assets/images/Perfil2.png" alt="Imagem de Perfil">
-                <strong class="user-name">Lubah234</strong>
-                <small class="user-time">11 minutos atrás</small>
+                <strong class="user__name">Lubah234</strong>
+                <small class="user__time">11 minutos atrás</small>
             </div>
-            <div class="user-resposta">Qual alienígena é esse?</div>
+            <div class="user__resposta">Qual alienígena é esse?</div>
 
 
             <div class="user">
                 <img width="20" height="20" src="../assets/images/Perfil3.png" alt="Imagem de Perfil">
-                <strong class="user-name">Jerry frontoso</strong>
-                <small class="user-time">10 minutos atrás</small>
+                <strong class="user__name">Jerry frontoso</strong>
+                <small class="user__time">10 minutos atrás</small>
             </div>
-            <div class="user-resposta">Adorei a S7E2, mas o S7E1 foi uma droga, então... né.</div>
+            <div class="user__resposta">Adorei a S7E2, mas o S7E1 foi uma droga, então... né.</div>
 
             <div class="user">
                 <img width="20" height="20" src="../assets/images/Perfil4.png" alt="Imagem de Perfil">
-                <strong class="user-name">panic09_bef</strong>
-                <small class="user-time">07 minutos atrás</small>
+                <strong class="user__name">panic09_bef</strong>
+                <small class="user__time">07 minutos atrás</small>
             </div>
-            <div class="user-resposta">Eu gostei de todos os episódios do S6, para ser sincero.</div>
+            <div class="user__resposta">Eu gostei de todos os episódios do S6, para ser sincero.</div>
 
             <div class="user">
                 <img width="20" height="20" src="../assets/images/Perfil5.png" alt="Imagem de Perfil">
-                <strong class="user-name">Futurt_670</strong>
-                <small class="user-time">05 minutos atrás</small>
+                <strong class="user__name">Futurt_670</strong>
+                <small class="user__time">05 minutos atrás</small>
             </div>
-            <div class="user-resposta">Eu vi o Episódio 3, que é fantástico.</div>
+            <div class="user__resposta">Eu vi o Episódio 3, que é fantástico.</div>
 
         </section>
 
-        <article class="conteudo_esquerda-topico">
-            <form class="form-resposta" action="#">
+        <article class="conteudo__esquerda-topico">
+            <form class="form__resposta" action="#">
                 <textarea placeholder="O que voce acha?"></textarea>
                 <input type="submit" value="Enviar">
             </form>
         </article>
 
-        <aside class="conteudo_direita">
+        <aside class="conteudo__direita">
             <h2>Tópicos recentes</h2>
             <ul>
                 <li>
@@ -104,8 +104,8 @@
                     </a>
                 </li>
             </ul>
-            <h3 class="criar-topico">Crie um tópico</h3>
-            <form class="form-criar-topico" action="/forum/topicos/criar" method="post">
+            <h3 class="criar__topico">Crie um tópico</h3>
+            <form class="form__criar-topico" action="/forum/topicos/criar" method="post">
                 <input type="text" name="titulo" placeholder="Título do tópico">
                 <textarea name="texto" placeholder="Texto do tópico"></textarea>
                 <input type="submit" value="Criar tópico">
