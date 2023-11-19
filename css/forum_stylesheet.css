@@ -94,8 +94,3 @@
 .form__resposta input[type="submit"]:hover {
     background-color: #45a049;
 }
-
-.conteudo__direita {
-    top: 0;
-    margin-right: 10%;
-  }
