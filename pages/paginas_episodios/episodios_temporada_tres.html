@@ -9,6 +9,7 @@
         content="Rick, Morty, Desenho, Animação, Episódios, Temporadas, HBO, Coderhouse, Física, Quântica, futurista">
     <link rel="shortcut icon" href="../../assets/icons/favicon.png" type="image\x-icon">
     <link rel="stylesheet" href="../../css/layout_stylesheet.css" />
+    <link rel="stylesheet" href="../../css/temporada_um_stylesheet.css" />
 
 
     <title>Episódios Rick and Morty</title>
@@ -16,223 +17,229 @@
 
 <body>
     <header>
-        <div class="capa">
-            <img src="../../assets/images/capa_projeto.png" />
-        </div>
-        <div class="navegador">
-            <nav>
-                <a href="../../index.html"><button>Inicio</button></a>
-                <a href="episodios_temporada_um.html"><button>Episodios</button></a>
-                <a href="../personagens.html">
-                    <button>Personagens</button>
-                </a>
-                <a href="../forum.html"><button>Forum</button></a>
-                <a href="../galeria.html"><button>Galeria</button></a>
-                <a href="../contatos_inicio.html"><button>Contatos</button></a>
-            </nav>
-        </div>
+        <header>
+            <div class="capa">
+                <img src="../../assets/images/capa_projeto.png" />
+            </div>
+            <div class="navegador">
+                <nav>
+                    <a href="../../index.html"><button>Inicio</button></a>
+                    <a href="episodios_temporada_um.html"><button>Episodios</button></a>
+                    <a href="../personagens.html">
+                        <button>Personagens</button>
+                    </a>
+                    <a href="../forum.html"><button>Forum</button></a>
+                    <a href="../galeria.html"><button>Galeria</button></a>
+                    <a href="../contatos_inicio.html"><button>Contatos</button></a>
+                </nav>
+            </div>
+        </header>
     </header>
 
 
     <main>
         <section>
-            <nav>
+            <nav class="menu">
                 <ul>
-                    <li>
-                        <a href="episodios_temporada_um.html"> Temporada 1 </a>
-                    </li>
-                    <li>
-                        <a href="episodios_temporada_dois.html"> Temporada 2 </a>
-                    </li>
-                    <li>
+                    <li class="menu__temporadas">
                         <a href="episodios_temporada_tres.html"> Temporada 3 </a>
                     </li>
-                    <li>
+                    <br>
+                    <li class="menu__temporadas">
+                        <a href="episodios_temporada_um.html"> Temporada 1 </a>
+                    </li>
+                    <br>
+                    <li class="menu__temporadas">
+                        <a href="episodios_temporada_dois.html"> Temporada 2 </a>
+                    </li>
+                    <br>
+                    <li class="menu__temporadas">
                         <a href="episodios_temporada_quatro.html"> Temporada 4 </a>
                     </li>
-                    <li>
+                    <br>
+                    <li class="menu__temporadas">
                         <a href="episodios_temporada_cinco.html"> Temporada 5 </a>
                     </li>
-                    <li>
+                    <br>
+                    <li class="menu__temporadas">
                         <a href="episodios_temporada_seis.html"> Temporada 6 </a>
                     </li>
                 </ul>
-            </nav>
 
+            </nav>
         </section>
         <section>
-            <article>
+            <div class="episodio">
+
                 <a href="https://www.primevideo.com/detail/0O23EOCOUB4B3WUQ7C8025RVYQ/ref=atv_dp_season_select_s3"
                     target="_blank">
-                    <img src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_1.jfif"
-                        alt=" Imagem episódio 1">
-                </a>
-                <h1>Episódio 1</h1>
-                <p>
-                    A família lida com muitas coisas neste episódio. O que Rick vai fazer?</p>
-            </article>
-            <article>
+                    <img class="episodio__image"
+                        src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_1.jfif"
+                        alt=" Imagem episódio 1"></a>
+                <h2 class="episodio__titulo">Episódio 1</h2>
+                <p class="episodio__descricao">Rick, ainda na prisão galáctica, coloca em ação um intrincado plano de
+                    fuga. </p>
+
+
+            </div>
+            <div class="episodio">
+
                 <a href="https://www.primevideo.com/detail/0O23EOCOUB4B3WUQ7C8025RVYQ/ref=atv_dp_season_select_s3"
                     target="_blank">
-                    <img src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_2.jfif"
-                        alt=" Imagem episódio 2">
-                </a>
-                <h1>Episódio 2</h1>
-                <p>Summer começa a atuar.
+                    <img class="episodio__imagem"
+                        src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_2.jfif"
+                        alt=" Imagem episódio 2"></a>
+                <h2 class="episodio__titulo">Episódio 2</h2>
+                <p class="episodio__descricao">Com as crianças lidando com o divórcio dos seus pais, Rick os leva a um
+                    universo parecido com Mad Max.
                 </p>
-            </article>
-            <article>
+
+            </div>
+            <div class="episodio">
                 <a href="https://www.primevideo.com/detail/0O23EOCOUB4B3WUQ7C8025RVYQ/ref=atv_dp_season_select_s3"
                     target="_blank">
-                    <img src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_3.jfif"
-                        alt=" Imagem episódio 3">
-                </a>
-                <h1>Episódio 3</h1>
-                <p>
-                    É hora de terapia familiar! O surgimento do Picles Rick .
-                </p>
-            </article>
-            <article>
+                    <img class="episodio__imagem"
+                        src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_3.jfif"
+                        alt=" Imagem episódio 3"></a>
+                <h2 class="episodio__titulo">Episódio 3</h2>
+                <p class="episodio__descricao">Rick transforma a si mesmo em um pepino enquanto Beth, Summer e Morty vão
+                    a terapia familiar.</p>
+            </div>
+            <div class="episodio">
                 <a href="https://www.primevideo.com/detail/0O23EOCOUB4B3WUQ7C8025RVYQ/ref=atv_dp_season_select_s3"
                     target="_blank">
-                    <img src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_4.jfif"
-                        alt=" Imagem episódio 4">
-                </a>
-                <h1>Episódio 4</h1>
-                <p>Este episódio é muito bom! Tem heróis e muita ação.
+                    <img class="episodio__imagem"
+                        src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_4.jfif"
+                        alt=" Imagem episódio 4"></a>
+                <h2 class="episodio__titulo">Episódio 4</h2>
+                <p class="episodio__descricao">Rick e Morty caem em uma armadilha mortal concebida por Rick enquanto
+                    estava bêbado.
                 </p>
-            </article>
-            <article>
+            </div>
+            <div class="episodio">
                 <a href="https://www.primevideo.com/detail/0O23EOCOUB4B3WUQ7C8025RVYQ/ref=atv_dp_season_select_s3"
                     target="_blank">
-                    <img src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_5.jfif"
-                        alt=" Imagem episódio 5">
-                </a>
-                <h1>Episódio 5</h1>
-                <p>
-                    Beth falha como mãe. O verão tem problemas corporais.
-                </p>
-            </article>
-            <article>
+                    <img class="episodio__imagem"
+                        src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_5.jfif"
+                        alt=" Imagem episódio 5"></a>
+                <h2 class="episodio__titulo">Episódio 5</h2>
+                <p class="episodio__descricao">Rick e Jerry viajam para um planeta onde não se pode morrer, mas lá há
+                    uma criatura que deseja matar Rick.
+            </div>
+            <div class="episodio">
                 <a href="https://www.primevideo.com/detail/0O23EOCOUB4B3WUQ7C8025RVYQ/ref=atv_dp_season_select_s3"
                     target="_blank">
-                    <img src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_6.jfif"
-                        alt=" Imagem episódio 6">
-                </a>
-                <h1>Episódio 6</h1>
-                <p>Rick e Morty precisam de uma pausa pois os tempos estão ficando difíceis.
-                </p>
-            </article>
-            <article>
+                    <img class="episodio__imagem"
+                        src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_6.jfif"
+                        alt=" Imagem episódio 6"></a>
+                <h2 class="episodio__titulo">Episódio 6</h2>
+                <p class="episodio__descricao"></p>Rick e Morty decidem que precisam de férias após outra aventura
+                cansativa. Nada sai como o planejado.
+            </div>
+            <div class="episodio">
                 <a href="https://www.primevideo.com/detail/0O23EOCOUB4B3WUQ7C8025RVYQ/ref=atv_dp_season_select_s3"
                     target="_blank">
-                    <img src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_7.jfif"
-                        alt=" Imagem episódio 7">
-                </a>
-                <h1>Episódio 7</h1>
-                <p>
-                    Atlântida, aqui vamos nós! Um belo episódio independente sobre Atlântida!
-                </p>
-            </article>
-            <article>
+                    <img class="episodio__imagem"
+                        src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_7.jfif"
+                        alt=" Imagem episódio 7"></a>
+                <h2 class="episodio__titulo">Episódio 7</h2>
+                <p class="episodio__descricao">A aventura para a cidade perdida de Atlântida é interrompida por
+                    circunstâncias perturbadoras.</p>
+            </div>
+            <div class="episodio">
                 <a href="https://www.primevideo.com/detail/0O23EOCOUB4B3WUQ7C8025RVYQ/ref=atv_dp_season_select_s3"
                     target="_blank">
-                    <img src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_8.jfif"
-                        alt=" Imagem episódio 8">
-                </a>
-                <h1>Episódio 8</h1>
-                <p>
-                    As memórias de Morty são restauradas e aprendemos a verdade neste episódio.
+                    <img class="episodio__imagem"
+                        src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_8.jfif"
+                        alt=" Imagem episódio 8"></a>
+                <h2 class="episodio__titulo">Episódio 8</h2>
+                <p class="episodio__descricao">As memórias de Morty são restauradas e aprendemos a verdade neste
+                    episódio.
                 </p>
-            </article>
-            <article>
+            </div>
+            <div class="episodio">
                 <a href="https://www.primevideo.com/detail/0O23EOCOUB4B3WUQ7C8025RVYQ/ref=atv_dp_season_select_s3"
                     target="_blank">
-                    <img src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_9.jfif"
-                        alt=" Imagem episódio 9">
-                </a>
-                <h1>Episódio 9</h1>
-                <p>Jerry tem sorte com uma mulher. Beth revisita sua infância.
+                    <img class="episodio__imagem"
+                        src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_9.jfif"
+                        alt=" Imagem episódio 9"></a>
+                <h2 class="episodio__titulo">Episódio 9</h2>
+                <p class="episodio__descricao"> Beth relembra sua infância quando Rick a leva para um mundo chamado
+                    Froopy Land.
                 </p>
-            </article>
-            <article>
+            </div>
+            <div class="episodio">
                 <a href="https://www.primevideo.com/detail/0O23EOCOUB4B3WUQ7C8025RVYQ/ref=atv_dp_season_select_s3"
                     target="_blank">
-                    <img src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_10.jfif"
-                        alt=" Imagem episódio 10">
-                </a>
-                <h1>Episódio 10</h1>
-                <p>Neste episódio fica cara a cara com o presidente.
+                    <img class="episodio__imagem"
+                        src="../../assets/images/imagens_episodios/Temporada 3/temporada_3_episodio_10.jfif"
+                        alt=" Imagem episódio 10"></a>
+                <h2 class="episodio__titulo">Episódio 10</h2>
+                <p class="episodio__descricao">Rick e Morty são convocados pelo presidente para matar um alienígena
+                    perverso.
                 </p>
-            </article>
+            </div>
+
         </section>
     </main>
 
 
 
-    <footer class="footer">
-        <div class="footer__icones">
-          <!-- Ali Saad -->
-          <figure>
-            <figcaption>Ali Saad</figcaption>
-            <a href="https://www.instagram.com/alissaad90/" target="_blank">
-              <img src="../../assets/icons/icone_instagram.png" />
-            </a>
-            <a href="https://www.linkedin.com/in/ali-ssaad/" target="_blank">
-              <img src="../../assets/icons/icone_linkedin.png" />
-            </a>
-          </figure>
-          <!-- Lucelia Ribeiro -->
-          <figure>
-            <figcaption>Lucélia Ribeiro</figcaption>
-            <a href="https://instagram.com/lucelia.a.r" target="_blank">
-              <img src="../../assets/icons/icone_instagram.png" />
-            </a>
-            <a href="https://www.linkedin.com/in/lucelia-ribeiro" target="_blank">
-              <img src="../../assets/icons/icone_linkedin.png" />
-            </a>
-          </figure>
-          <!-- Gregorio de Abreu -->
-          <figure>
-            <figcaption>Gregorio de Abreu</figcaption>
-            <a href="https://instagram.com/gregoriodeabreu" target="_blank">
-              <img src="../../assets/icons/icone_instagram.png" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/gregorio-abreu-920623104"
-              target="_blank"
-            >
-              <img src="../../assets/icons/icone_linkedin.png" />
-            </a>
-          </figure>
-          <!-- Hugo Benevides -->
-          <figure>
-            <figcaption>Hugo Benevides</figcaption>
-            <a href="https://instagram.com/cromocronos_tattoo" target="_blank">
-              <img src="../../assets/icons/icone_instagram.png" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/hugo-benevides-734327294"
-              target="_blank"
-            >
-              <img src="../../assets/icons/icone_linkedin.png" />
-            </a>
-          </figure>
-          <!-- Herbert Chagas -->
-          <figure>
-            <figcaption>Herbert Chagas</figcaption>
-            <a href="https://instagram.com/herb_co" target="_blank">
-              <img src="../../assets/icons/icone_instagram.png" />
-            </a>
-            <a
-              href="https://br.linkedin.com/in/herbert-chagas-de-oliveira-a46a10a0"
-              target="_blank"
-            >
-              <img src="../../assets/icons/icone_linkedin.png" />
-            </a>
-          </figure>
-        </div>
-      </footer>
+
+        <footer class="footer">
+            <div class="footer__icones">
+                <!-- Ali Saad -->
+                <figure>
+                    <figcaption>Ali Saad</figcaption>
+                    <a href="https://www.instagram.com/alissaad90/" target="_blank">
+                        <img src="../../assets/icons/icone_instagram.png" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/ali-ssaad/" target="_blank">
+                        <img src="../../assets/icons/icone_linkedin.png" />
+                    </a>
+                </figure>
+                <!-- Lucelia Ribeiro -->
+                <figure>
+                    <figcaption>Lucélia Ribeiro</figcaption>
+                    <a href="https://instagram.com/lucelia.a.r" target="_blank">
+                        <img src="../../assets/icons/icone_instagram.png" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/lucelia-ribeiro" target="_blank">
+                        <img src="../../assets/icons/icone_linkedin.png" />
+                    </a>
+                </figure>
+                <!-- Gregorio de Abreu -->
+                <figure>
+                    <figcaption>Gregorio de Abreu</figcaption>
+                    <a href="https://instagram.com/gregoriodeabreu" target="_blank">
+                        <img src="../../assets/icons/icone_instagram.png" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/gregorio-abreu-920623104" target="_blank">
+                        <img src="../../assets/icons/icone_linkedin.png" />
+                    </a>
+                </figure>
+                <!-- Hugo Benevides -->
+                <figure>
+                    <figcaption>Hugo Benevides</figcaption>
+                    <a href="https://instagram.com/cromocronos_tattoo" target="_blank">
+                        <img src="../../assets/icons/icone_instagram.png" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/hugo-benevides-734327294" target="_blank">
+                        <img src="../../assets/icons/icone_linkedin.png" />
+                    </a>
+                </figure>
+                <!-- Herbert Chagas -->
+                <figure>
+                    <figcaption>Herbert Chagas</figcaption>
+                    <a href="https://instagram.com/herb_co" target="_blank">
+                        <img src="../../assets/icons/icone_instagram.png" />
+                    </a>
+                    <a href="https://br.linkedin.com/in/herbert-chagas-de-oliveira-a46a10a0" target="_blank">
+                        <img src="../../assets/icons/icone_linkedin.png" />
+                    </a>
+                </figure>
+            </div>
+        </footer>
 
 </body>
 
