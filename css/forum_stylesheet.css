@@ -19,7 +19,9 @@ main {
     margin: 20px;
 }
 
-.h2 {}
+h2 {
+    text-align: center;
+  }
 
 .coluna__esquerda,
 .coluna__direita {
@@ -57,14 +59,14 @@ main {
     margin-top: 15px;
 }
 
-.user img {
-    border-radius: 50%;
-    margin-right: 5px;
+.user__img {
+    border-radius: 80%;
+    margin-right: 10px;
 }
 
 .user__name {
     font-weight: bold;
-    font-size: 20px 
+    font-size: 20px
 }
 
 .user__resposta {
@@ -72,22 +74,51 @@ main {
     font-size: 18px
 }
 
-form,
-.forum__topico {
-    margin-top: 20px;
-}
-
-textarea,
-.forum__topico input[type="text"] {
-    width: 100%;
+.form__resposta {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 80;
     padding: 10px;
-    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .form__resposta textarea {
+    width: 60%;
+    height: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    resize: vertical;
+    font-size: 16px;
+  }  
+
+  .form__resposta input[type="submit"] {
+    width: 20%;
+    padding: 10px;
+    background-color: #8BCF21;
+    color: #fff;
+    border:1px solid;
+    display:inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.forum__topico {
+    margin-top: 30px;
+}
+
+.forum__topico input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: horizontal;
 }
 
 input[type="submit"] {
+    width: 60%;
     background-color: #8BCF21;
     color: #fff;
     border: none;
