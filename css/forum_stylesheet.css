@@ -1,31 +1,35 @@
 @font-face {
     font-family: "get scwifty";
     src: url("../assets/fonts/get_schwifty.ttf") format("truetype");
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: "JetBrainsMono";
     src: url("../assets/fonts/JetBrainsMono.ttf");
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: "irishgrover";
     src: url("../assets/fonts/IrishGrover-Regular.ttf");
-  }
+}
+
 main {
     display: flex;
     justify-content: space-between;
     margin: 20px;
 }
-.h2 {
 
-}
-.coluna__esquerda, .coluna__direita {
+.h2 {}
+
+.coluna__esquerda,
+.coluna__direita {
     flex-basis: 48%;
-    background: rgba( 131, 210, 228, 0.4 );
-    backdrop-filter: blur( 7.5px );
--webkit-backdrop-filter: blur( 7.5px );
+    background: rgba(131, 210, 228, 0.4);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 .titulo {
@@ -46,11 +50,11 @@ main {
 .topico-titulo a {
     color: #2F9331;
     text-decoration: none;
-    font-family:"JetBrainsMono"; 
+    font-family: "JetBrainsMono";
 }
 
 .user {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .user img {
@@ -60,18 +64,21 @@ main {
 
 .user__name {
     font-weight: bold;
-    font-family:"JetBrainsMono"
+    font-size: 20px 
 }
 
 .user__resposta {
-    margin-left: 25px;
+    margin-left: 45px;
+    font-size: 18px
 }
 
-form, .forum__topico {
+form,
+.forum__topico {
     margin-top: 20px;
 }
 
-textarea, .forum__topico input[type="text"] {
+textarea,
+.forum__topico input[type="text"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -105,8 +112,8 @@ ul li a {
 
 .titulo1 {
     text-align: center;
-    margin-top: 20px; 
-    font-family:"irishgrover" ; 
+    margin-top: 20px;
+    font-family: "JetBrainsMono";
 }
 
 .criar__topico {
