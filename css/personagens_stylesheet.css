@@ -1,6 +1,6 @@
 @font-face {
   font-family: "digital7";
-  src:"C:\Users\hugob\OneDrive\Documentos\CODERHOUSE WEBDESIGN\CODERHOUSE WEBDESIGN\projeto_final_coderhouse\projeto_final_coderhouse\assets\fonts\digital7.ttf";
+  src:url("../assets/fonts/virtual7.ttf")
 }
 .main{
   display: block;
