@@ -77,7 +77,7 @@
     border: 1px solid #ccc;
     border: groove;
     border-radius: 5px;
-    resize: vertical;
+    resize: vertical:
 }
 
 .form__resposta input[type="submit"] {
