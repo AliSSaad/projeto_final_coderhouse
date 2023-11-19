@@ -1,6 +1,4 @@
 @font-face {
-  font-family: "get scwifty";
-  src: url("../assets/fonts/get_schwifty.ttf") format("truetype");
   font-family: "irishgrover";
   src: url("../assets/fonts/IrishGrover-Regular.ttf");
 }
@@ -13,21 +11,19 @@ html,
 header {
   width: 100%;
   height: auto;
-  margin: 0;
-  padding: 0;
   background-color: #cee8c0;
+  overflow-x: hidden;
 }
 .capa img {
+  position: relative;
   overflow: hidden;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
   width: 100%;
   height: auto;
-  display: flex;
 }
 .navegador {
-  position: fixed;
-  transform: translate(10px, -18px);
+  position: relative;
+  z-index: 3;
+  transform: translate(10px, -25px);
   width: 100%;
   height: 50px;
   display: inline-block;
@@ -48,25 +44,21 @@ header {
   width: calc((100% / 6));
   height: 50px;
   transition: 1s all;
+  text-shadow: 1.5px 1.5px 1.5px black;
 }
 .navegador button:hover {
   transform: scale(110%);
   font-size: 35px;
 }
 .conteudo {
-  position: fixed;
+  position: sticky;
   width: 100%;
   height: auto;
   overflow: auto;
-  transform: translate(50px, 80px);
+  margin: 2% 0% 0% 3%;
 }
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: auto;
-  width: 100%;
+  position: relative;
   text-align: center;
   background-color: #d9d9d9;
 }
