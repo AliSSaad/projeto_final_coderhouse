@@ -78,6 +78,7 @@ a {
 .conteudo__esquerda--box-Youtube {
   height: 80%;
   padding: 2% 2% 2% 0%;
+  margin-bottom: 8%;
 }
 .conteudo__esquerda--videos-Youtube {
   display: inline-block;
@@ -94,7 +95,6 @@ a {
   font-size: 20px;
   padding: 1% 1% 1% 5%;
   margin-bottom: 8%;
-  overflow: auto;
 }
 .conteudo__esquerda--logoYoutube {
   width: 15%;
