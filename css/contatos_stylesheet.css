@@ -4,6 +4,10 @@ article {
   position: relative;
   text-align: center;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 .contato {
   width: 25%;
   height: 30%;
