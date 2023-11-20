@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "get scwifty";
-    src: url("../assets/fonts/get_schwifty.ttf") format("truetype");
-}
-
-@font-face {
     font-family: "JetBrainsMono";
     src: url("../assets/fonts/JetBrainsMono.ttf");
 }
@@ -37,6 +32,7 @@ h2 {
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
+/* Campo esquerdo de ultimas respostas */
 .titulo {
     background-image: radial-gradient(circle at 20.73% 55.16%, #8eb146 0, #77ab42 16.67%, #59a13b 33.33%, #2e9331 50%, #00852a 66.67%, #007a2a 83.33%, #00722f 100%);
 }
@@ -56,6 +52,7 @@ h2 {
 .topico__img {
     border-radius: 50%;
     margin-right: 10px;
+
 }
 
 .topico-titulo a {
@@ -78,11 +75,6 @@ h2 {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.user__img {
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
 .user__name {
     font-weight: bold;
     font-size: 20px
@@ -95,14 +87,15 @@ h2 {
     border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
-    background: rgba( 139, 207, 33, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 0px );
--webkit-backdrop-filter: blur( 0px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgba(139, 207, 33, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+/* Campo formulario de resposta */
 .form__resposta {
     display: flex;
     flex-direction: column;
@@ -129,31 +122,16 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: #fff;
     border: 1px solid;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .forum__topico {
-    margin-top: 30px;
-}
-
-.forum__topico input[type="text"] {
-    width: 60%;
-    padding: 10px;
-    margin-bottom: 5px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    resize: horizontal;
-}
-
-input[type="submit"] {
-    width: 30%;
-    background-color: #8BCF21;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
 }
 
 
@@ -178,8 +156,31 @@ ul li a {
     font-family: "JetBrainsMono";
 }
 
-.criar__topico {
-    margin-top: 20px;
-    color: #333;
+/* Campos do formulário do topico */
+.forum__topico__campos {
+    margin-bottom: 20px;
 
+}
+
+input {
+    width: 40%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 60%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: #8BCF21;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
 }
