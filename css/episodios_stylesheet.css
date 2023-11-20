@@ -11,6 +11,7 @@
 .menu {
     font-family: "irishgrover";
     background-color: #0bb0cc;
+    box-shadow: 2px 2px 2px #000;
     width: 200px;
     height: 30px;
     border-radius: 10px;
