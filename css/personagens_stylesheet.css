@@ -9,7 +9,7 @@
 }
 
 .card {
-  width: 90%;
+  width: relative;
   height: 160px;
   margin-top: 45px;
   margin-left: 5%;
@@ -23,15 +23,15 @@
 }
 
 .info {
-  width: 80%;
-  max-width: 600px;
+  width: relative;
+  max-width: relative;
   height: 120px;
   margin-top: 15px;
-  margin-right: 40px;
+  margin-right: 90px;
   text-align: right;
   background-color: #cccccc1d;
   border-top: 1;
-  border: 1px solid rgb(0, 255, 30);
+  border: 5px solid rgba(0, 255, 30, 0.259);
   border-radius: 5px;
   padding-top: 0px;
   padding-right: 30px;
@@ -40,14 +40,15 @@
   justify-content: center;
   font-family: "digital-7";
   font-style: italic;
-  font-size: 20px;
+  font-size: relative;
   color: rgb(170, 255, 0);
   font-weight: 100;
   line-height: 1.8;
 }
 
 .img {
-  width: 45%;
+  width: 180px  ;
+  height: 240px;
   margin-top: -15px;
   margin-left: -25px;
   position: absolute;
