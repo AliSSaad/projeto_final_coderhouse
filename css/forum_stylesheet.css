@@ -37,6 +37,12 @@ h2 {
     background-image: radial-gradient(circle at 20.73% 55.16%, #8eb146 0, #77ab42 16.67%, #59a13b 33.33%, #2e9331 50%, #00852a 66.67%, #007a2a 83.33%, #00722f 100%);
 }
 
+.titulo1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "JetBrainsMono";
+}
+
 .topico {
     margin-top: 20px;
     display: flex;
@@ -131,7 +137,10 @@ h2 {
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 40px;
+    background: rgba(139, 207, 33, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
 }
 
 
@@ -150,16 +159,10 @@ ul li a {
     font-family: "JetBrainsMono";
 }
 
-.titulo1 {
-    text-align: center;
-    margin-top: 20px;
-    font-family: "JetBrainsMono";
-}
-
 /* Campos do formulário do topico */
 .forum__topico__campos {
     margin-bottom: 20px;
-
+    text-align: center;
 }
 
 input {
