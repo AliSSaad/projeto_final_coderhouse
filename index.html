@@ -78,8 +78,10 @@
           <div class="conteudo__esquerda--logoYoutube">
             <img src="assets/images/youTube-logo.png" alt="Logo Youtube" />
           </div>
-          <div class="conteudo__esquerda--Videosyoutube">
-            <div>
+          <!--           O box engloba todos os videos com suas descrições o videos-Youtube
+          somente um video com sua respectiva descrição -->
+          <div class="conteudo__esquerda--box-Youtube">
+            <div class="conteudo__esquerda--videos-Youtube">
               <iframe
                 width="210"
                 height="208"
@@ -91,7 +93,7 @@
               ></iframe>
               <p>Rick and Morty | Season 7 Official Trailer | adult swim</p>
             </div>
-            <div>
+            <div class="conteudo__esquerda--videos-Youtube">
               <iframe
                 width="210"
                 height="208"
@@ -101,9 +103,9 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <p>Unity Takes Down The President's Hive Mind | Rick and Morty</p>
+              <p>Unity Takes Down The President's Hive Mind Rick and Morty</p>
             </div>
-            <div>
+            <div class="conteudo__esquerda--videos-Youtube">
               <iframe
                 width="210"
                 height="208"
@@ -113,11 +115,9 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <p>
-                Inside The Episode: Air Force Wong | Rick and Morty | adult swim
-              </p>
+              <p>Inside The Episode: Air Force Wong | Rick and Morty</p>
             </div>
-            <div>
+            <div class="conteudo__esquerda--videos-Youtube">
               <iframe
                 width="210"
                 height="208"
@@ -127,7 +127,31 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <p>Mighty Sorry (Full Song) | Rick and Morty | adult swim</p>
+              <p>Mighty Sorry (Full Song) Rick and Morty | adult swim</p>
+            </div>
+            <div class="conteudo__esquerda--videos-Youtube">
+              <iframe
+                width="210"
+                height="205"
+                src="https://www.youtube.com/embed/OA7jF9mD3PI?si=cfFzFdMz8E6ngbxR"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p>Battle of the Ricks | Rick and Morty | adult swim</p>
+            </div>
+            <div class="conteudo__esquerda--videos-Youtube">
+              <iframe
+                width="210"
+                height="205"
+                src="https://www.youtube.com/embed/C-UDzdabqaU?si=2fC49fv_miqbq23L"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <p>Aqua Teen Hunger Force | Season 12 Official Trailer</p>
             </div>
           </div>
         </article>
@@ -194,13 +218,16 @@
       </section>
       <!-- A ideia e implementar um codigo para puxar de uma Api os post do twiter do canal oficial RickAndMorty -->
       <aside class="conteudo__direita">
+        <!-- Banner what us on twitter -->
         <a href="https://twitter.com/RickandMorty">
           <figure class="conteudo__direita--logoTwitter">
             <img src="assets/images/Twitter-new-logo.jpeg" alt="Logo Twitter" />
             <figcaption>Watch Rick And Morty on Twitter!!!</figcaption>
           </figure>
         </a>
-        <div class="conteudo__direita--postTwitter">
+        <!--         Post Completo do twitter postTwitter refere-se a postagem imagem e descrição
+        perfil twitter refere-se a foto do perfil nome e img de perfil verificado -->
+        <article class="conteudo__direita--postTwitter">
           <div class="conteudo__direita--perfilTwitter">
             <img
               class="fotoPerfil"
@@ -223,8 +250,10 @@
               alt="RickAndMorty_twitterPost"
             />
           </figure>
-        </div>
-        <div class="conteudo__direita--postTwitter">
+        </article>
+        <!--         Post Completo do twitter postTwitter refere-se a postagem imagem e descrição
+        perfil twitter refere-se a foto do perfil nome e img de perfil verificado -->
+        <article class="conteudo__direita--postTwitter">
           <div class="conteudo__direita--perfilTwitter">
             <img
               src="assets/images/foto_perfilTwitter.jpg"
@@ -245,7 +274,29 @@
             <img src="assets/images/rickandmortytwiter1.jpeg""
             alt="RickAndMorty_twitterPost">
           </figure>
-        </div>
+        </article>
+        <article class="conteudo__direita--postTwitter">
+          <div class="conteudo__direita--perfilTwitter">
+            <img
+              src="assets/images/foto_perfilTwitter.jpg"
+              alt="Foto Perfil Twitter"
+            />
+            <a href="https://twitter.com/RickandMorty">Rick And Morty</a>
+            <img
+              src="assets/images/contaVerificadaTwitter.png"
+              alt="conta verificada twitter"
+            />
+            <p>@RickandMorty</p>
+          </div>
+          <figure>
+            <figcaption>#FanArtFriday by #bebe__sow</figcaption>
+            <p>#WarnerMediaUpfront @adultswim</p>
+            <img
+              src="assets/images/posttwitter3.jpeg"
+              alt="RickAndMorty_twitterPost"
+            />
+          </figure>
+        </article>
       </aside>
     </main>
     <footer class="footer">
