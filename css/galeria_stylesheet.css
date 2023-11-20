@@ -2,6 +2,10 @@
   font-family: "irishgrover";
   src: url("../assets/fonts/IrishGrover-Regular.ttf");
 }
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("../assets/fonts/JetBrainsMono.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -58,18 +62,40 @@ header {
   margin: 2% 0% 0% 3%;
 }
 .introdução__galeria {
-  padding: 20px; /* Espaçamento interno */
-  text-align: center; /* Alinhamento do texto */
-  margin: 20px; /* Espaçamento externo */
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
 }
 .introdução__galeria h1 {
-  font-size: 30px;
-    margin-bottom: 15px;
+  font-size: 27px;
+  margin-bottom: 15px;
+  font-family: "irishgrover";
+  color: #2f9331;
+  text-shadow: 1px 1px 2px #000;
 }
 .introdução__galeria p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.6;
-    margin-bottom: 20px; /* Espaçamento inferior */
+  margin-bottom: 20px;
+  font-family: "JetBrainsMono";
+  color: #113612;
+}
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.galeria img {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px #000;
+  transition: transform 0.3s ease;
+}
+.galeria img:hover {
+  transform: scale(2.2);
 }
 .footer {
   position: relative;
