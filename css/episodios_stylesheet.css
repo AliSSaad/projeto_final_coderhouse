@@ -11,6 +11,7 @@
 .menu {
     font-family: "irishgrover";
     background-color: #0bb0cc;
+    box-shadow: 2px 2px 2px #000;
     width: 200px;
     height: 30px;
     border-radius: 10px;
@@ -62,30 +63,24 @@
 .episodio img {
     width: 500px;
     border-radius: 25px;
+    box-shadow: 2px 2px 2px #000;
+    
 }
 
 .episodio a {
     text-decoration: none;
     text-align: start;
-    color: black;
 }
 
 .episodio__descricao {
     margin-top: 10px;
     margin-bottom: 20px;
     word-spacing: 10px;
-   }
+    color: black;
+}
 
 .episodio__titulo {
     margin-top: 10px;
     margin-bottom: 30px;
+    color: black;
 }
-
-.dropdown_menu img {
-    width: 20px;
-    margin-left: 335px;
-    margin-top: -38px;
-    position:absolute;
-    background-color: #0bb0cc;
-}
-
