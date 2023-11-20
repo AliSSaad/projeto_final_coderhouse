@@ -88,29 +88,32 @@
         <aside class="coluna__direita">
             <h2>Tópicos recentes</h2>
             <ul>
-              <li>
-                <a href="#">
-                  <img src="../assets/images/topico1.gif" width="100" height="100" float="left" />
-                  <h3>Estão gostando dos novos episódios?</h3>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="../assets/images/topico2.gif" width="100" height="100" float="left" />
-                  <h3>O que você acha dos dubladores da 7a Temporada?</h3>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="../assets/images/topico3.gif" width="100" height="100" float="left" />
-                  <h3>Rick and Morty no violino elétrico</h3>
-                </a>
-              </li>
+                <li>
+                    <a href="#">
+                        <img src="../assets/images/topico1.gif" width="100" height="100" float="left" />
+                        <h3>Estão gostando dos novos episódios?</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../assets/images/topico2.gif" width="100" height="100" float="left" />
+                        <h3>O que você acha dos dubladores da 7a Temporada?</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../assets/images/topico3.gif" width="100" height="100" float="left" />
+                        <h3>Rick and Morty no violino elétrico</h3>
+                    </a>
+                </li>
             </ul>
-            <h3 class="criar__topico">Crie um tópico</h3>
             <form class="forum__topico" action="/forum/topicos/criar" method="post">
-                <input type="text" name="titulo" placeholder="Título do tópico">
-                <textarea name="texto" placeholder="Texto do tópico"></textarea>
+                <h2>Criar novo tópico</h2>
+                <div class="forum__topico__campos">
+                    <input type="text" id="titulo" name="titulo" placeholder="Título do tópico">
+                    <textarea name="texto" placeholder="Texto do tópico"></textarea>
+                </div>
+
                 <input type="submit" value="Criar tópico">
             </form>
         </aside>
