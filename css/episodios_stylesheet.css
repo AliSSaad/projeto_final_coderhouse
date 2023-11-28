@@ -48,12 +48,19 @@
     font-family: Kopub batang;
 }
 
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .episodio {
     width: 500px;
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: 50px;
     margin-bottom: 20px;
-    margin-left: 110px;
+    /* margin-left: 110px; */
     font-family: "JetBrainsMono";
     font-size: 20px;
     word-spacing: 10px;
