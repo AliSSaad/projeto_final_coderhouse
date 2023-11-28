@@ -55,6 +55,15 @@
     justify-content: space-around;
 }
 
+.flexbox2 {
+    display: flex;
+    flex-direction: row;
+    gap: 135px;
+    margin-left: 65px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .episodio {
     width: 500px;
     /* display: inline-block; */
