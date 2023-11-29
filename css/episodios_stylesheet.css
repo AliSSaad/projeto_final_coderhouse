@@ -29,7 +29,7 @@
 .menu li {
     list-style-type: none;
     font-family: "irishgrover";
-    list-style-type: none;
+
     text-align: center;
 }
 
@@ -48,12 +48,28 @@
     font-family: Kopub batang;
 }
 
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-direction: row;
+    gap: 135px;
+    margin-left: 65px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .episodio {
     width: 500px;
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: 50px;
     margin-bottom: 20px;
-    margin-left: 110px;
+    /* margin-left: 110px; */
     font-family: "JetBrainsMono";
     font-size: 20px;
     word-spacing: 10px;
@@ -64,12 +80,12 @@
     width: 500px;
     border-radius: 25px;
     box-shadow: 2px 2px 2px #000;
-    
+
 }
 
 .episodio a {
     text-decoration: none;
-    text-align: start;
+
 }
 
 .episodio__descricao {
@@ -84,11 +100,3 @@
     margin-bottom: 30px;
     color: black;
 }
-
-
-   
-
-
-
-
-    

@@ -2,12 +2,10 @@
   font-family: "irishgrover";
   src: url("../assets/fonts/IrishGrover-Regular.ttf");
 }
-
 * {
   margin: 0;
   padding: 0;
 }
-
 body,
 html,
 header {
@@ -16,14 +14,12 @@ header {
   background-color: #cee8c0;
   overflow-x: hidden;
 }
-
 .ancora img {
   scale: 0.5;
-  margin-top: -40%;
+  margin-top: -40% ;
   margin-bottom: -10%;
   margin-left: -25%;
-}
-
+  }
 .capa img {
   position: relative;
   overflow: hidden;
@@ -31,7 +27,6 @@ header {
   height: auto;
   z-index: 0;
 }
-
 .navegador {
   position: relative;
   z-index: 3;
@@ -40,11 +35,9 @@ header {
   height: 50px;
   display: inline-block;
 }
-
 .navegador a {
   text-decoration: none;
 }
-
 .navegador button {
   font-family: "irishgrover";
   color: white;
@@ -60,12 +53,10 @@ header {
   transition: 1s all;
   text-shadow: 1.5px 1.5px 1.5px black;
 }
-
 .navegador button:hover {
   transform: scale(110%);
   font-size: 35px;
 }
-
 .conteudo {
   position: sticky;
   width: 100%;
@@ -73,19 +64,16 @@ header {
   overflow: auto;
   margin: 2% 0% 0% 3%;
 }
-
 .footer {
   position: relative;
   text-align: center;
   background-color: #d9d9d9;
 }
-
 .footer__icones figure {
   display: inline-block;
   margin: 0px 150px 0px 0px;
   padding-left: 15px;
 }
-
 .footer__icones figure a {
   text-decoration: none;
 }
