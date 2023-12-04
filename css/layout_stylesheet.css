@@ -2,14 +2,17 @@
   font-family: "irishgrover";
   src: url("../assets/fonts/IrishGrover-Regular.ttf");
 }
+
 @font-face {
   font-family: "JetBrainsMono";
   src: url("../assets/fonts/JetBrainsMono.ttf");
 }
+
 * {
   margin: 0;
   padding: 0;
 }
+
 body,
 html,
 header {
@@ -18,12 +21,14 @@ header {
   background-color: #cee8c0;
   overflow-x: hidden;
 }
+
 .capa img {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: auto;
 }
+
 .navegador {
   position: relative;
   z-index: 3;
@@ -32,9 +37,11 @@ header {
   height: 50px;
   display: inline-block;
 }
+
 .navegador a {
   text-decoration: none;
 }
+
 .navegador button {
   font-family: "irishgrover";
   color: white;
@@ -50,10 +57,12 @@ header {
   transition: 1s all;
   text-shadow: 1.5px 1.5px 1.5px black;
 }
+
 .navegador button:hover {
   transform: scale(110%);
   font-size: 35px;
 }
+
 .conteudo {
   position: sticky;
   width: 100%;
@@ -61,17 +70,20 @@ header {
   overflow: auto;
   margin: 2% 0% 0% 3%;
 }
+
 .footer {
   position: relative;
   text-align: center;
   background-color: #d9d9d9;
   font-family: "JetBrainsMono";
 }
+
 .footer__icones figure {
   display: inline-block;
   margin: 0px 150px 0px 0px;
   padding-left: 15px;
 }
+
 .footer__icones figure a {
   text-decoration: none;
 }
