@@ -30,7 +30,7 @@ a {
 }
 .conteudo__esquerda {
   display: grid;
-  grid-template-rows: 1fr 0.8fr 1fr;
+  grid-template-rows: auto 0.8fr 1fr;
 }
 .esquerda__youtube {
   display: flex;
@@ -53,10 +53,6 @@ a {
 .esquerda__videos-Youtube p {
   width: 30%;
 }
-.inicio__boasVindas {
-  padding-top: 5%;
-  margin-left: 10%;
-}
 .inicio__boasVindas h1 {
   font-family: "get scwifty";
   text-align: center;
@@ -69,21 +65,21 @@ a {
   font-family: "JetBrainsMono";
 }
 .esquerda__inicio {
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-  gap: 15%;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  align-content: space-between;
+  align-items: center;
 }
 
 .inicio__banner {
-  scale: 0.6;
+  scale: 0.5;
   border: solid;
   animation-name: bordas_animacao;
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
 .inicio__banner img {
-  scale: 0.6;
+  scale: 0.5;
 }
 .inicio__banner h2 {
   text-align: center;
