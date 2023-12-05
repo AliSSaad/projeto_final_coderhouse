@@ -17,13 +17,13 @@ main {
 h2 {
     text-align: center;
     font-family: "JetBrainsMono";
-    margin-right: 50px;
+    margin-right: 0px;
     margin-bottom: 30px
 }
 
 .coluna__esquerda,
 .coluna__direita {
-    flex-basis: 48%;
+    flex-basis: 46%;
     background: rgba(131, 210, 228, 0.4);
     backdrop-filter: blur(7.5px);
     -webkit-backdrop-filter: blur(7.5px);
