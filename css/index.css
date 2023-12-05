@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "get scwifty";
+  src: url("../assets/fonts/get_schwifty.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("../assets/fonts/JetBrainsMono.ttf");
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+@keyframes bordas_animacao {
+  0% {
+    border: solid;
+  }
+  50% {
+    border: dashed;
+  }
+  100% {
+    border: solid;
+  }
+}
+.conteudo {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  overflow-x: hidden;
+  gap: 10%;
+}
+.conteudo__esquerda {
+  display: grid;
+  grid-template-rows: 1fr 0.8fr 1fr;
+}
+.esquerda__youtube {
+  display: flex;
+  flex-direction: column;
+}
+.esquerda__logoYoutube img {
+  width: 10%;
+}
+.esquerda__box-Youtube {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.esquerda__videos-Youtube {
+  width: 30%;
+}
+.esquerda__videos-Youtube p {
+  width: 30%;
+}
+.inicio__boasVindas {
+  padding-top: 5%;
+  margin-left: 10%;
+}
+.inicio__boasVindas h1 {
+  font-family: "get scwifty";
+  text-align: center;
+  color: #07b4c2;
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+.inicio__boasVindas p {
+  text-align: center;
+  font-family: "JetBrainsMono";
+}
+.esquerda__inicio {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  gap: 15%;
+}
+
+.inicio__banner {
+  scale: 0.6;
+  border: solid;
+  animation-name: bordas_animacao;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.inicio__banner img {
+  scale: 0.6;
+}
+.inicio__banner h2 {
+  text-align: center;
+  font-family: "irishgrover";
+  font-size: 50px;
+  padding-top: 15%;
+}
+.conteudo__direita {
+  display: flex;
+  flex-direction: column;
+  flex-direction: end;
+}
+.direita__logoTwitter {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-style: dashed;
+  text-align: center;
+  animation-name: bordas_animacao;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.direita__logoTwitter img {
+  width: 30%;
+}
+
+.direita__perfilTwitter img {
+  width: 5%;
+  border-radius: 40%;
+}
+.direita__perfilTwitter a {
+  font-weight: bold;
+}
+.direita__perfilTwitter p {
+  margin: 1% 0% 1% 0%;
+  color: #636060;
+  font-size: 15px;
+}
+.direita__postTwitter {
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.direita__postTwitter figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30%;
+  margin-top: 5%;
+}
+.direita__postTwitter a {
+  font-size: 16px;
+}
+.esquerda__curiosidades {
+  display: grid;
+  grid-template-areas:
+    "titulo titulo titulo"
+    "curiosidade1 curiosidade2 curiosidade3";
+  gap: 10%;
+}
+.esquerda__curiosidades .curiosidade1 {
+  grid-area: curiosidade1;
+}
+.esquerda__curiosidades .curiosidade2 {
+  grid-area: curiosidade2;
+}
+.esquerda__curiosidades .curiosidade3 {
+  grid-area: curiosidade3;
+}
+.esquerda__curiosidades strong {
+  font-size: 35px;
+}
+.esquerda__curiosidades img {
+  font-size: 15px;
+  width: 90%;
+  margin-bottom: 5%;
+}
+.esquerda__curiosidades p {
+  font-size: 20px;
+  width: 90%;
+  text-align: justify;
+  overflow: auto;
+}
+.esquerda__curiosidades div {
+  padding: 10px 10px 10px 10px;
+}
+.esquerda__curiosidades div:hover {
+  background-color: #2f9331;
+  height: auto;
+}
+.esquerda__curiosidades h2 {
+  font-family: "irishgrover";
+  font-size: 70px;
+  text-align: center;
+  grid-area: titulo;
+}
