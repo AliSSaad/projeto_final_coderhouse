@@ -23,14 +23,14 @@
 }
 
 .menu:hover {
-    height: 280px;
+    height: 310px;
 }
 
 .menu li {
     list-style-type: none;
     font-family: "irishgrover";
-
-    text-align: center;
+    margin-top: -12px;
+    margin-left: -5px;
 }
 
 .menu li a {
