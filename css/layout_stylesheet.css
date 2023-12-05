@@ -2,12 +2,15 @@
   font-family: "irishgrover";
   src: url("../assets/fonts/IrishGrover-Regular.ttf");
 }
+<<<<<<< HEAD
 
 @font-face {
   font-family: "JetBrainsMono";
   src: url("../assets/fonts/JetBrainsMono.ttf");
 }
 
+=======
+>>>>>>> ea2d75afe54a9d83c46999cc06185eb64c5d9854
 * {
   margin: 0;
   padding: 0;
@@ -21,12 +24,22 @@ header {
   background-color: #cee8c0;
   overflow-x: hidden;
 }
+<<<<<<< HEAD
 
+=======
+.ancora img {
+  scale: 0.5;
+  margin-top: -40% ;
+  margin-bottom: -10%;
+  margin-left: -25%;
+  }
+>>>>>>> ea2d75afe54a9d83c46999cc06185eb64c5d9854
 .capa img {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: auto;
+  z-index: 0;
 }
 
 .navegador {
@@ -75,7 +88,6 @@ header {
   position: relative;
   text-align: center;
   background-color: #d9d9d9;
-  font-family: "JetBrainsMono";
 }
 
 .footer__icones figure {
