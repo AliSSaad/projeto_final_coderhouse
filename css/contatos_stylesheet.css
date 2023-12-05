@@ -11,7 +11,7 @@ a {
 .contato {
   width: 25%;
   height: 30%;
-  display: inline-block;
+  display: inline-flex;
   border: solid;
   border-color: #2f9331;
   border-radius: 20%;
