@@ -63,19 +63,19 @@
   overflow: hidden;
   opacity: 50%;
   width: 10px;
-  height: 10px;
-  margin-top: 70px;
-  margin-left: 130px;
+  height: 5px;
+  margin-left: 150px;
+  margin-top: 65px;
   text-align: right ;
   background-color: #cccccc1d;
   border-top: 1;
   border: 5px solid rgba(0, 255, 30, 0.259);
-  border-radius: 5px;
+  border-radius: 10px;
   padding-top: 5px;
   padding-right: 0px;
   padding-left: 0px;
   display: block;
-  justify-content: right;
+  justify-content: space-around;
   font-family: "digitalPlay";
   font-style: italic;
   font-size: medium;
@@ -83,21 +83,6 @@
   font-weight: 100;
   line-height: 1.5;
   z-index: 2;
-
-}
-
-.info:hover {
-  width: 90%;
-  max-width: 80%;
-  height: 120px;
-  margin-top: 10px;
-  margin-right: 10%;
-  opacity: 90%;
-  background-color: rgba(170, 255, 0, 0.774);
-  transition: all 0.5s;
-  color: black;
-  text-align: center;
-  z-index: 3;
 }
 
 .img {
@@ -117,3 +102,18 @@
   transition: 1s;
   z-index: 4;
 }
+.info:hover {
+  width: 90%;
+  max-width: 80%;
+  height: 120px;
+  margin-top: 10px;
+  margin-right: 10%;
+  opacity: 90%;
+  background-color: rgba(170, 255, 0, 0.774);
+  transition: all 0.5s;
+  color: black;
+  text-align: center;
+  justify-content: space-around;
+  z-index: 3;
+}
+
