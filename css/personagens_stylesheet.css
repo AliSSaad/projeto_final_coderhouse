@@ -13,15 +13,16 @@
 .h1 {
   width: 100%;
   height: auto ;
-  background-color: rgb(255, 247, 0);
+  background-color: #e2ff00;
   justify-content: right;
   font-family: "digitalPlay";
   font-style: italic;
   font-weight: 00;
   font-size: large;
-  color: #000000;
+  color:#7e00b4;
   text-align: center;
-  animation-duration: 5s;
+  margin-top: -5px;
+  animation-duration: 3.5s;
   animation-name: scroll;
   animation-iteration-count: infinite;
 }
@@ -36,7 +37,7 @@
   }
 
   66% {
-    opacity: 0%;
+    opacity: 100%;
   }
 
   99% {
@@ -45,12 +46,12 @@
 }
 
 .card {
-  width: 90%;
+  width: 92%;
   height: 160px;
-  margin-top: 45px;
+  margin-top: 20px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding: 10px;
   background-color: rgb(0, 0, 0);
   border: 5px solid rgb(0, 255, 30);
@@ -82,7 +83,7 @@
   color: rgba(0, 0, 0, 0);
   font-weight: 100;
   line-height: 1.5;
-  z-index: 2;
+  z-index: 4;
 }
 
 .img {
@@ -100,18 +101,20 @@
 .card img:hover {
   transform: scale(1.2);
   transition: 1s;
-  z-index: 4;
+  z-index: 3;
 }
+
 .info:hover {
   width: 90%;
-  max-width: 80%;
+  max-width: 85%;
   height: 120px;
-  margin-top: 10px;
+  margin-top: 0.1%;
+  padding: 1% 1% 1% 1%;
   opacity: 90%;
-  background-color: rgba(170, 255, 0, 0.774);
+  background-color: #bdffa3;
   transition: all 0.5s;
   color: black;
   text-align: center;
-  z-index: 3;
+  z-index: 5;
 }
 
