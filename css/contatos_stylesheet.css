@@ -75,15 +75,30 @@ a {
 }
 
 .conteudo__pegadinha {
-  margin-left: 25%;
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-right: 30%;
+  margin-bottom: 3%;
 }
 
 .conteudo__pegadinha h1 {
-  margin-top: 2%;
-  font-family: "irishgrover";
+  font-family: "OCRA";
+  font-style: italic;
+  font-size: 90PX;
+  padding-top: -20px;
+  margin-right: 20%;
+  
 }
 
 .conteudo__pegadinha img {
-  margin: 5% 0% 10% 2%;
-  width: 30%;
+   width: 55%;
+   margin-left: 75%;
+   margin-top: -40%;
+}
+.img1 {
+  scale: 0.18;
+  margin-top: -47%;
+  margin-bottom: -53%;
+  margin-left:50%;
+
 }
