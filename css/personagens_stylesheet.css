@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "digitalPlay";
-  src: url("../assets/fonts/digitalPlay.ttf")
+  font-family: "OCRA";
+  src: url("../assets/fonts/OCRA.TTF")
 }
 .main {
   display: flex;
@@ -13,12 +13,12 @@
 .h1 {
   width: 100%;
   height: auto ;
-  background-color: #e2ff00;
+  background-color: #e1ff006b;
   justify-content: right;
-  font-family: "digitalPlay";
-  font-style: italic;
+  font-family: "OCRA";
+  font-style:  bold;
   font-weight: 00;
-  font-size: large;
+  font-size: x-large;
   color:#7e00b4;
   text-align: center;
   margin-top: -5px;
@@ -77,7 +77,7 @@
   padding-left: 0px;
   display: block;
   justify-content: space-around;
-  font-family: "digitalPlay";
+  font-family: "OCRA";
   font-style: italic;
   font-size: medium;
   color: rgba(0, 0, 0, 0);
@@ -111,7 +111,7 @@
   margin-top: 0.1%;
   padding: 1% 1% 1% 1%;
   opacity: 90%;
-  background-color: #bdffa3;
+  background-color: #e2ff00;
   transition: all 0.5s;
   color: black;
   text-align: center;

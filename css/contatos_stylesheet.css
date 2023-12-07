@@ -84,21 +84,24 @@ a {
 .conteudo__pegadinha h1 {
   font-family: "OCRA";
   font-style: italic;
-  font-size: 90PX;
+  font-size: 70px;
   padding-top: -20px;
   margin-right: 20%;
   
 }
 
 .conteudo__pegadinha img {
-   width: 55%;
-   margin-left: 75%;
-   margin-top: -40%;
+   width: 45%;
+   height: 550px;
+   margin-left: 90%;
+   margin-top: -35%;
+   overflow: visible;
 }
+
 .img1 {
   scale: 0.18;
   margin-top: -47%;
   margin-bottom: -53%;
-  margin-left:50%;
+  margin-left: 40%;
 
 }
