@@ -107,13 +107,11 @@
   max-width: 80%;
   height: 120px;
   margin-top: 10px;
-  margin-right: 10%;
   opacity: 90%;
   background-color: rgba(170, 255, 0, 0.774);
   transition: all 0.5s;
   color: black;
   text-align: center;
-  justify-content: space-around;
   z-index: 3;
 }
 
