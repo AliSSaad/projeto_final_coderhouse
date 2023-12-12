@@ -2,7 +2,10 @@
   font-family: "OCRA";
   src: url("../assets/fonts/OCRA.ttf");
 }
-
+.fundo {
+  width: 100%;
+  margin-top: -20px ;
+}
 .conteudo__pegadinha {
   width: 100%;
   height: 100px;
@@ -12,7 +15,7 @@
 }
 
 .h1 {
-  width: 50%;
+  width: 55%;
   font-family: "OCRA";
   color: #eaff00;
   font-size: 40px;
@@ -21,25 +24,26 @@
   position: relative;
   margin-right: 20%;
   margin-left: 5%;
-  margin-top: -700px;
+  margin-top: -670px;
+  margin-bottom: -150px;
   z-index: 2;
   overflow: visible;
 }
 
 .portal img{
   width: 330px;
-  height: 500px;
-  margin-left: 60%;
-  margin-top:-13%;
+  height: 450px;
+  margin-left: 55%;
+  margin-top:-5%;
   overflow: hidden;
   z-index: 3;
 }
 
 .dedos img{
   scale: 0.3;
-  margin-left: 26%;
+  margin-left: 20%;
   margin-top: -55%;
-  margin-bottom:  -28%;
+  margin-bottom:  -30%;
   overflow: visible;
   z-index: 4;
 }
