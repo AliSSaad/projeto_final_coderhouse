@@ -1,12 +1,17 @@
+@font-face {
+  font-family: "OCRA";
+  src: url("../assets/fonts/OCRA.ttf");
+}
+
 .introdução__galeria {
   padding: 20px;
   text-align: center;
   margin: 20px;
 }
 .introdução__galeria h1 {
-  font-size: 27px;
+  font-size: 30px;
   margin-bottom: 15px;
-  font-family: "irishgrover";
+  font-family: "OCRA";
   color: #2f9331;
   text-shadow: 1px 1px 2px #000;
 }
@@ -14,7 +19,7 @@
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 20px;
-  font-family: "JetBrainsMono";
+  font-family: "OCRA";
   color: #113612;
 }
 .galeria {
@@ -34,4 +39,20 @@
 }
 .galeria img:hover {
   transform: scale(2.2);
+}
+
+/* Media query para telas menores */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  /* Outros estilos para telas menores */
+}
+
+/* Media query para telas maiores */
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+  /* Outros estilos para telas maiores */
 }
