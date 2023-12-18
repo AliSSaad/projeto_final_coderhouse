@@ -99,18 +99,17 @@ body {
 }
 .chIcons img{
   scale: 1.3;
-  margin-bottom: -20px;
+  margin-top: -220px;
 }
 
 .chIconsIN img{
   margin-left: -25%;
-  margin-top: -220px;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
+  padding-bottom: -50px ;
 }
 .chIconsYtub img{
   margin-left: 15px;
-  margin-top: -200px;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
 }
 .footer {
   height: 300px;
