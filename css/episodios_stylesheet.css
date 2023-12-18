@@ -8,12 +8,27 @@
     src: url("../assets/fonts/JetBrainsMono.ttf");
 }
 
+@font-face {
+    font-family: "digitalPlay";
+    src: url("../assets/fonts/digitalPlay.ttf");
+}
+
+@font-face {
+    font-family: "get_schwifty";
+    src: url("../assets/fonts/get_schwifty.ttf");
+}
+
+@font-face {
+    font-family: "OCRA";
+    src: url("../assets/fonts/OCRA.TTF");
+}
+
 .menu {
-    font-family: "irishgrover";
+    font-family: "JetBrainsMono";
     background-color: #0bb0cc;
     box-shadow: 2px 2px 2px #000;
     width: 200px;
-    height: 30px;
+    height: 28px;
     border-radius: 10px;
     transform: translate(100px);
     padding: 20px 40px 20px 40px;
@@ -23,12 +38,12 @@
 }
 
 .menu:hover {
-    height: 270px;
+    height: 260px;
 }
 
 .menu li {
     list-style-type: none;
-    font-family: "irishgrover";
+    font-family: "OCRA";
     text-align: center;
 }
 
