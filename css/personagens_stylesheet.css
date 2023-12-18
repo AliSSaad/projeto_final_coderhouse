@@ -13,35 +13,41 @@
 .h1 {
   width: 100%;
   height: auto ;
-  background-color: #e1ff006b;
+  background-color: #e1ff00;
   justify-content: right;
   font-family: "OCRA";
   font-style:  bold;
-  font-weight: 00;
+  font-weight: 100;
   font-size: x-large;
-  color:#7e00b4;
+  translate: (-1000px, 1000px);
+  color: #585858;
   text-align: center;
   margin-top: -5px;
   animation-duration: 3.5s;
   animation-name: scroll;
   animation-iteration-count: infinite;
+  
 }
 
 @keyframes scroll {
   0% {
     opacity: 0%;
   }
-
-  33% {
+  20%{
+    opacity: 0%;
+  }
+  21% {
     opacity: 100%;
   }
 
-  66% {
+  95% {
     opacity: 100%;
   }
-
-  99% {
-    opacity: 100%
+  96%{
+    opacity: 0%;
+  }
+  100% {
+    opacity: 0%
   }
 }
 
@@ -68,9 +74,9 @@
   margin-left: 150px;
   margin-top: 65px;
   text-align: right ;
-  background-color: #cccccc1d;
+  background-color: #000000;
   border-top: 1;
-  border: 5px solid rgba(0, 255, 30, 0.259);
+  border: 5px solid rgb(255, 255, 255);
   border-radius: 10px;
   padding-top: 5px;
   padding-right: 0px;
@@ -89,17 +95,15 @@
 .img {
   width: 180px;
   height: 110%;
-  margin-top: -10px;
-  margin-left: -25px;
+  margin-top: -15px;
+  margin-left: -30px;
   position: absolute;
-  top: 0;
-  left: 0;
   z-index: 2;
   overflow: visible;
 }
 
 .card img:hover {
-  transform: scale(1.2);
+  transform: scale(1.35); 
   transition: 1s;
   z-index: 3;
 }
@@ -112,9 +116,9 @@
   padding: 1% 1% 1% 1%;
   opacity: 90%;
   background-color: #e2ff00;
+  border-color: rgb(114, 114, 114);
   transition: all 0.5s;
   color: black;
   text-align: center;
   z-index: 5;
-}
-
+} 
