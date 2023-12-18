@@ -4,7 +4,7 @@
 }
 .fundo {
   width: 100%;
-  margin-top: -20px ;
+  margin-top: -20px ;margin-bottom: 20px;
 }
 .conteudo__pegadinha {
   width: 100%;
@@ -24,8 +24,8 @@
   position: relative;
   margin-right: 20%;
   margin-left: 5%;
-  margin-top: -600px;
-  margin-bottom: -150px;
+  margin-top: -650px;
+  margin-bottom: -100px;
   z-index: 2;
   overflow: visible;
 }
