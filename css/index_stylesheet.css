@@ -54,6 +54,7 @@ body {
   font-family: "get scwifty";
   color: #07b4c2;
   font-size: 50px;
+  margin-bottom: 10%;
 }
 .inicio__boasVindas p {
   width: 100%;
@@ -230,5 +231,9 @@ body {
   }
   .conteudo__direita {
     height: 50%;
+  }
+  .inicio__boasVindas p {
+    margin-bottom: 10%;
+    margin-top: 10%;
   }
 }
