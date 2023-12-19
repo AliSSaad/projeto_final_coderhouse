@@ -26,7 +26,7 @@ body {
   overflow: hidden;
 }
 .conteudo {
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 2%;
   gap: 10%;
 }
@@ -109,6 +109,8 @@ body {
   width: 70%;
 }
 .esquerda__curiosidades {
+  width: 100%;
+  height: 20%;
   display: grid;
   grid-template-areas:
     "titulo titulo titulo"
