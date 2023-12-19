@@ -28,18 +28,19 @@ body {
 .conteudo {
   margin-top: 2%;
   margin-left: 2%;
-  gap: 10%;
 }
 .conteudo__esquerda {
-  width: 50%;
-  height: 100%;
+  width: 55%;
+  height: 40%;
+  margin-right: 10%;
+}
+.conteudo__direita {
+  width: 30%;
 }
 .esquerda__inicio {
-  display: grid;
+  display: flex;
   width: 100%;
   height: auto;
-  grid-template-columns: 1.2fr 0.5fr;
-  grid-template-rows: auto 0.5fr 1fr;
   align-items: top;
 }
 .inicio__boasVindas {
@@ -61,10 +62,11 @@ body {
   font-family: "JetBrainsMono";
 }
 .inicio__banner {
+  text-align: center;
   padding: 10px 10px 10px 10px;
   margin-left: 10%;
   width: 100%;
-  height: 100%;
+  height: 500px;
   border: solid;
   animation-name: bordas_animacao;
   animation-duration: 1s;
@@ -77,6 +79,10 @@ body {
 .inicio__banner img {
   width: auto;
   height: 150px;
+  /*   margin-left: 20%;
+  margin-right: 20%; */
+  padding: 10px 10px 10px 10px;
+  text-align: center;
 }
 .inicio__banner h2 {
   width: 100%;
@@ -110,12 +116,13 @@ body {
 }
 .esquerda__curiosidades {
   width: 100%;
-  height: 20%;
+  height: 80%;
   display: grid;
   grid-template-areas:
     "titulo titulo titulo"
     "curiosidade1 curiosidade2 curiosidade3";
   gap: 10%;
+  align-self: flex-end;
 }
 .esquerda__curiosidades h2 {
   font-family: "irishgrover";
@@ -194,4 +201,34 @@ body {
 }
 .direita__postTwitter a {
   font-size: 16px;
+}
+@media screen and (max-width: 1250px) {
+  .esquerda__inicio {
+    flex-direction: column;
+    align-items: top;
+  }
+  .inicio__banner {
+    width: auto;
+    height: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid;
+    justify-items: top;
+  }
+  /*   .conteudo__direita {
+    height: 50%;
+  } */
+  .esquerda__videos-Youtube {
+    margin-top: 1%;
+    width: 50%;
+  }
+  .inicio__banner h2 {
+    padding-top: 1%;
+  }
+  .esquerda__curiosidades {
+    margin-top: 40%;
+  }
+  .conteudo__direita {
+    height: 50%;
+  }
 }
