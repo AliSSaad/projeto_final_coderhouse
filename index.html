@@ -24,6 +24,17 @@
       href="assets/icons/favicon.png"
       type="image\x-icon"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/layout_stylesheet.css" />
     <link rel="stylesheet" href="css/index_stylesheet.css" />
   </head>
@@ -48,26 +59,23 @@
         </a>
         <a href="pages/forum.html"><button>Forum</button></a>
         <a href="pages/galeria.html"><button>Galeria</button></a>
-        <a href="pages/contatos_inicio.html"><button>Contatos</button></a>
+        <a href="pages/contatos_inicio1.html"><button>Contatos</button></a>
       </nav>
     </header>
-    <main class="conteudo">
-      <section class="conteudo__esquerda">
-        <article class="esquerda__inicio">
-          <div class="inicio__boasVindas">
+    <main class="conteudo row container-fluid">
+      <section class="conteudo__esquerda col-8">
+        <article class="esquerda__inicio row container-fluid">
+          <div class="inicio__boasVindas col-5">
             <h1>Bem vindos ao Rick And Morty Fans site</h1>
             <p>
-              <b>
-                A série animada "Rick and Morty" é uma criação de Dan Harmon e
-                Justin Roiland e se tornou um fenômeno entre o público adulto.
-                Ela mescla ficção científica, humor ácido e questões
-                existenciais de uma forma única. Nosso projeto visa criar um
-                site temático para celebrar e explorar o universo de "Rick and
-                Morty".
-              </b>
+              A série animada "Rick and Morty" é uma criação de Dan Harmon e
+              Justin Roiland e se tornou um fenômeno entre o público adulto. Ela
+              mescla ficção científica, humor ácido e questões existenciais de
+              uma forma única. Nosso projeto visa criar um site temático para
+              celebrar e explorar o universo de "Rick and Morty".
             </p>
           </div>
-          <div class="inicio__banner">
+          <div class="inicio__banner col-5">
             <a href="https://gorickyourself.com/">
               <h2>
                 Transforme-se em um personagem do universo <br />
@@ -147,7 +155,7 @@
               ></iframe>
               <p>Battle of the Ricks | Rick and Morty | adult swim</p>
             </div>
-            <div class="esquerda__videos-Youtube">
+            <!--             <div class="esquerda__videos-Youtube">
               <iframe
                 width="210"
                 height="205"
@@ -158,7 +166,7 @@
                 allowfullscreen
               ></iframe>
               <p>Aqua Teen Hunger Force | Season 12 Official Trailer</p>
-            </div>
+            </div> -->
           </div>
         </article>
         <article class="esquerda__curiosidades">
@@ -223,7 +231,7 @@
         </article>
       </section>
       <!-- A ideia e implementar um codigo para puxar de uma Api os post do twiter do canal oficial RickAndMorty -->
-      <aside class="conteudo__direita">
+      <aside class="conteudo__direita col-4 justify-content-end">
         <!-- Banner what us on twitter -->
         <a href="https://twitter.com/RickandMorty">
           <figure class="direita__logoTwitter">
@@ -310,15 +318,54 @@
         <p>Desenvolvimento Web Turma: 50575: grupo 5 - 23/24</p>
       </div>
       <div class="line"></div>
-      <div class="coderhouselinks"></div>
-
+      <div class="coderhouselinks">
+        <p>Links dos Desenvolvedores:</p>
+      </div>
+      <div class="chIcons">
+        <a
+          class="chIconsIN"
+          href="https://www.linkedin.com/company/coderhouse-brasil/"
+          target="_blank"
+        >
+          <img src="../assets/icons/icone_linkedin.png"
+        /></a>
+        <a
+          class="chIconsYtub"
+          href="https://www.instagram.com/coderhousebrasil/"
+          target="_blank"
+        >
+          <img src="../assets/icons/icone_instagram.png"
+        /></a>
+        <a
+          class="chIconsYtub"
+          href="https://www.youtube.com/channel/UCA-85r1mD_D0lsKqCsqWWzw"
+          target="_blank"
+        >
+          <img src="../assets/icons/icone_youtube.png"
+        /></a>
+        <a
+          class="chIconsYtub"
+          href="https://twitter.com/Coderhousebr"
+          target="_blank"
+        >
+          <img src="../assets/icons/icone_x.png"
+        /></a>
+        <a
+          class="chIconsYtub"
+          href="https://www.facebook.com/Coderhouse.br"
+          target="_blank"
+        >
+          <img src="../assets/icons/icone_facebook.png"
+        /></a>
+      </div>
       <a
         class="coderhouselink1"
         href="https://www.coderhouse.com.br/"
         target="_blank"
       >
-        <img src="../assets/images/logos_coderhouse.png" alt="coderlogo" />
-      </a>
+        <img src="../assets/images/logos_coderhouse.png" alt="coderlogo"
+      /></a>
+
       <div class="footer__icones">
         <!-- Ali Saad -->
         <figure>
@@ -380,7 +427,7 @@
           </a>
         </figure>
       </div>
-      <div class="copyright">&copy; 2023 Rick and Morty Fan Site</div>
+      <div class="copyright">&copy; 2023 Rick and Morty Fan Zite</div>
     </footer>
   </body>
 </html>

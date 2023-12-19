@@ -22,74 +22,53 @@ a {
     border: solid;
   }
 }
-body {
-  overflow: hidden;
-}
 .conteudo {
-  margin-top: 5%;
-  margin-left: 2%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  overflow-x: hidden;
   gap: 10%;
 }
 .conteudo__esquerda {
-  width: 50%;
-  height: 100%;
+  display: grid;
+  grid-template-rows: 0.6fr 0.8fr 2fr;
 }
 .esquerda__inicio {
   display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: 1.2fr 0.5fr;
-  grid-template-rows: auto 0.5fr 1fr;
-  align-items: top;
-}
-.inicio__boasVindas {
-  width: 100%;
-  height: 100%;
-  text-align: center;
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: auto;
+  align-content: space-between;
+  align-items: center;
 }
 .inicio__boasVindas h1 {
-  width: 100%;
-  height: 50%;
   font-family: "get scwifty";
+  text-align: center;
   color: #07b4c2;
   font-size: 50px;
+  margin-bottom: 5%;
 }
 .inicio__boasVindas p {
-  width: 100%;
-  height: 100%;
   text-align: center;
   font-family: "JetBrainsMono";
 }
 .inicio__banner {
-  padding: 10px 10px 10px 10px;
-  margin-left: 10%;
-  width: 100%;
-  height: 100%;
+  scale: 0.5;
   border: solid;
   animation-name: bordas_animacao;
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
-.inicio__banner a {
-  width: 100%;
-  height: 100%;
-}
 .inicio__banner img {
-  width: auto;
-  height: 150px;
+  scale: 0.5;
 }
 .inicio__banner h2 {
-  width: 100%;
-  height: 50%;
   text-align: center;
   font-family: "irishgrover";
-  font-size: 30px;
+  font-size: 50px;
   padding-top: 15%;
 }
 .esquerda__youtube {
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
 }
 .esquerda__logoYoutube img {
   width: 10%;
@@ -152,6 +131,11 @@ body {
 }
 .esquerda__curiosidades .curiosidade3 {
   grid-area: curiosidade3;
+}
+.conteudo__direita {
+  display: flex;
+  flex-direction: column;
+  flex-direction: end;
 }
 .direita__logoTwitter {
   font-weight: bold;
