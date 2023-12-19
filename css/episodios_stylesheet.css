@@ -21,6 +21,10 @@
 @font-face {
     font-family: "OCRA";
     src: url("../assets/fonts/OCRA.TTF");
+    }
+
+.dropdown:hover {
+    height: 260px
 }
 
 .menu {
