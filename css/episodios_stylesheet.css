@@ -23,10 +23,6 @@
     src: url("../assets/fonts/OCRA.TTF");
     }
 
-.dropdown:hover {
-    height: 260px
-}
-
 .menu {
     font-family: "JetBrainsMono";
     background-color: #0bb0cc;
