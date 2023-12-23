@@ -56,6 +56,7 @@
 .menuTemp li a {
     font-size: 20px;
     text-decoration: none;
+    color: black;
 }
 
 .menuTemp li a:visited {
