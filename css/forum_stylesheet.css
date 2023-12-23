@@ -103,7 +103,7 @@ h2 {
 /* Campo formulario de resposta */
 .form__resposta {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 60%;
     margin: 90px;
     padding: 10px;
@@ -112,7 +112,7 @@ h2 {
 
 .form__resposta textarea {
     width: 60%;
-    height: 20px;
+    height: 50px;
     margin-bottom: 5px;
     padding: 10px;
     border: 1px solid #ccc;
