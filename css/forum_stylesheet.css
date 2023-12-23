@@ -161,6 +161,10 @@ ul li a {
     margin-bottom: 20px;
     text-align: center;
 }
+.forum__topico__campos textarea{
+    margin-top: 20px;
+    height: 200px;
+}
 
 input {
     width: 40%;
