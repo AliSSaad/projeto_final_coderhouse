@@ -23,43 +23,53 @@
     src: url("../assets/fonts/OCRA.TTF");
     }
 
-.menu {
+.menuTemp {
     font-family: "JetBrainsMono";
+    font-size: small;
     background-color: #0bb0cc;
     box-shadow: 2px 2px 2px #000;
     width: 200px;
-    height: 28px;
+    height: 50px;
     border-radius: 10px;
     transform: translate(100px);
-    padding: 20px 40px 20px 40px;
-    margin-top: 40px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 40px 0px 0px 0px;
     overflow: hidden;
     transition: 1s;
+
+}
+.menuTemp ul{
+    margin: 2px;
+    padding: 0;
 }
 
-.menu:hover {
+.menuTemp:hover {
     height: 260px;
 }
 
-.menu li {
+.menuTemp li {
     list-style-type: none;
     font-family: "OCRA";
-    text-align: center;
 }
 
-.menu li a {
+.menuTemp li a {
+    font-size: 20px;
     text-decoration: none;
-    color: black;
 }
 
-.menu li a:visited {
+.menuTemp li a:visited {
     color: black;
 }
 
 .menu__temporadas {
-    font-size: 23px;
+    width: 200px;
+    font-size: 20px;
     font-weight: bold;
     font-family: Kopub batang;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
 }
 
 .flexbox {
