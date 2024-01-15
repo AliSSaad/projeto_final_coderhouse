@@ -98,12 +98,8 @@
       </article>
       <script>
         const submitButton = document.querySelector("input[type='submit']");
-
         submitButton.addEventListener("click", () => {
-          // Exibir o alerta
           alert("ERRO AO ENVIAR MENSAGEM! Chat encerrado.");
-
-          // Impedimos o envio do formulário (para que nao seja redirecinado para pagina de erro)
           submitButton.preventDefault();
         });
       </script>
