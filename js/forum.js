@@ -1,3 +1,22 @@
+// Teste de API
+function obterDadosPersonagensRickAndMorty() {
+  const url = "https://rickandmortyapi.com/api/character";
+  let charactersContainer = document.getElementById("characters-container");
+
+  // Fazer uma solicitação para a API para obter os dados dos personagens
+  fetch(url)
+      .then((response) => {
+          if (!response.ok) {
+              charactersContainer.innerHTML = `Erro ao obter os dados dos personagens.`;
+              return;
+          }
+          return response.json();
+      })
+      .then((data) => {
+          // ...
+      });
+}
+
 // Alerta de chat encerrado ao tentar enviar mensagem
 const submitButton = document.querySelector("input[type='submit']");
 submitButton.addEventListener("click", (event) => {
