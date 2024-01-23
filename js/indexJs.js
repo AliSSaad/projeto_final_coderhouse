@@ -45,6 +45,5 @@ logoYoutube.addEventListener("click", () => {
         descricaoVideo5.innerText = "Battle of the Ricks | Rick and Morty | adult swim";
         status_button_youtube = true;
     }
-    alert("Videos Trocados");
 }
 );
