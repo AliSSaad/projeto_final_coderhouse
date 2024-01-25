@@ -28,7 +28,7 @@
     font-size: small;
     background-color: #0bb0cc;
     box-shadow: 2px 2px 2px #000;
-    width: 200px;
+    width: 250px;
     height: 50px;
     border-radius: 10px;
     transform: translate(100px);
@@ -45,7 +45,7 @@
 }
 
 .menuTemp:hover {
-    height: 300px;
+    height: 330px;
 }
 
 .menuTemp li {
@@ -68,8 +68,8 @@
     font-size: 20px;
     font-weight: bold;
     font-family: Kopub batang;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 30px;
+    margin: 5px 0px 0px 0px;
 
 }
 
