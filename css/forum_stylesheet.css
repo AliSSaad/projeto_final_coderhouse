@@ -1,3 +1,30 @@
+ /* Para smartphones */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    .user__name {
+        font-size: 16px;
+    }
+
+    .form__resposta textarea {
+        height: 60px;
+    }
+
+    .forum__topico__campos textarea {
+        height: 150px;
+    }
+
+    textarea {
+        height: 60px;
+    }
+
+    input[type="submit"] {
+        padding: 5px;
+    }
+}
+
 @font-face {
     font-family: "JetBrainsMono";
     src: url("../assets/fonts/JetBrainsMono.ttf");
@@ -191,4 +218,35 @@ input[type="submit"] {
     cursor: pointer;
     display: block;
     margin: 0 auto;
+}
+
+/* Para tablets */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .coluna__esquerda,
+    .coluna__direita {
+        flex-basis: 100%;
+    }
+
+    .form__resposta {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__resposta textarea,
+    .form__resposta input[type="submit"] {
+        width: 100%;
+    }
+
+    .forum__topico {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 80%;
+    }
 }
