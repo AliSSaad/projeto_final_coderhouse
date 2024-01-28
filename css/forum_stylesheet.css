@@ -61,10 +61,51 @@ h2 {
 }
 
 .topico-titulo a {
-    color: #E7E0DB;
+    color: #e0e7db;
     text-decoration: none;
     font-family: "JetBrainsMono";
 }
+
+.campo_topico {
+    display: flex;
+    margin: 20px 0;
+
+    border-radius: 15px 15px 16px 15px;
+    -moz-border-radius: 15px 15px 16px 15px;
+    -webkit-border-radius: 15px 15px 16px 15px;
+    background: rgba(139, 207, 33, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.campo_topico {
+    display: flex;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.campo_topico>a {
+    float: left;
+    margin-right: 10px;
+}
+
+.campo_topico h3 {
+    text-align: center;
+}
+
+.campo_topico>a img {
+
+    width: 120px;
+    height: 120px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5;
+}
+
 
 .user {
     border: 1px solid #ccc;
@@ -161,7 +202,8 @@ ul li a {
     margin-bottom: 20px;
     text-align: center;
 }
-.forum__topico__campos textarea{
+
+.forum__topico__campos textarea {
     margin-top: 20px;
     height: 200px;
 }
