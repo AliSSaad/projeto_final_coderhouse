@@ -93,7 +93,7 @@ h2 {
 }
 
 .campo_topico h3 {
-  text-align: center;
+    text-align: center;
 }
 
 .campo_topico>a img {
@@ -156,16 +156,16 @@ h2 {
     height: 60px;
     margin-bottom: 5px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: px solid #14a72f;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 16px; 
 }
 
 .form__resposta input[type="submit"] {
     width: 30%;
     padding: 15px;
     background-color: #8BCF21;
-    color: #1f6c20;
+    color: #054911;
     font-size: 16px;
     font-weight: bold;
     padding: 15px;
@@ -181,7 +181,7 @@ h2 {
     width: 500px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #2F9331;
     border-radius: 40px;
     background: rgba(139, 207, 33, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -212,6 +212,12 @@ ul li a {
     height: 200px;
 }
 
+.input-cor-titulo {
+    background-color: #060606;
+    color: #2F9331;
+    border: 5px solid #14a72f;
+  }
+
 input {
     width: 60%;
     padding: 10px;
@@ -220,6 +226,12 @@ input {
 }
 
 textarea {
+    background-color: #060606;
+    color: #2F9331;
+    border: 5px solid #14a72f;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(209, 207, 207, 0.15);
+    animation: fade-in 2s ease-in-out;
     width: 60%;
     height: 40px;
     padding: 10px;
@@ -229,7 +241,7 @@ textarea {
 
 input[type="submit"] {
     background-color: #8BCF21;
-    color: #257b26;
+    color: #054911;
     font-size: 16px;
     font-weight: bold;
     padding: 15px;
