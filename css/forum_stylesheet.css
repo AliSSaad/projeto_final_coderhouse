@@ -157,7 +157,7 @@ h2 {
     margin-bottom: 5px;
     padding: 10px;
     border: px solid #14a72f;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 16px; 
 }
 
@@ -166,10 +166,10 @@ h2 {
     padding: 15px;
     background-color: #8BCF21;
     color: #054911;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     padding: 15px;
-    border-radius: 12px;
+    border-radius: 55px;
     cursor: pointer;
     display: block;
     margin: 5px;
@@ -245,7 +245,7 @@ input[type="submit"] {
     font-size: 16px;
     font-weight: bold;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 55px;
     cursor: pointer;
     display: block;
     margin: 0 auto;
