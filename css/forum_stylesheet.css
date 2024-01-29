@@ -141,19 +141,19 @@ h2 {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-/* Campo formulario de resposta */
+/* Campo formulario de resposta a mensagens */
 .form__resposta {
     display: flex;
     flex-direction: row;
-    width: 60%;
-    margin: 90px;
+    width: 80%;
+    margin: 70px;
     padding: 10px;
     border-radius: 30px;
 }
 
 .form__resposta textarea {
-    width: 60%;
-    height: 50px;
+    width: 120%;
+    height: 60px;
     margin-bottom: 5px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -162,15 +162,20 @@ h2 {
 }
 
 .form__resposta input[type="submit"] {
-    width: 20%;
-    padding: 10px;
+    width: 30%;
+    padding: 15px;
     background-color: #8BCF21;
-    color: #fff;
-    border: 1px solid;
-    display: inline-block;
-    border-radius: 10px;
+    color: #1f6c20;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 12px;
     cursor: pointer;
+    display: block;
+    margin: 5px;
 }
+
+/* Campo formulario topico */
 
 .forum__topico {
     width: 500px;
@@ -197,20 +202,19 @@ ul li a {
     font-family: "JetBrainsMono";
 }
 
-/* Campos do formulário do topico */
 .forum__topico__campos {
     margin-bottom: 20px;
     text-align: center;
 }
 
 .forum__topico__campos textarea {
-    margin-top: 20px;
+    margin-top: 10px;
     height: 200px;
 }
 
 input {
-    width: 40%;
-    padding: 5px;
+    width: 60%;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
 }
@@ -225,11 +229,11 @@ textarea {
 
 input[type="submit"] {
     background-color: #8BCF21;
-    color: white;
+    color: #257b26;
     font-size: 16px;
     font-weight: bold;
-    padding: 10px;
-    border-radius: 12px;
+    padding: 15px;
+    border-radius: 15px;
     cursor: pointer;
     display: block;
     margin: 0 auto;
