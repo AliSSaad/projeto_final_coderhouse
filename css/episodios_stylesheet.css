@@ -136,6 +136,7 @@
 
 .construcao__image {
     width: 800px;
+    box-shadow: 2px 2px 2px #000;
     margin-left: -225px;
     margin-top: 70px;
     margin-bottom: 70px;
