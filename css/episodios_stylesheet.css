@@ -126,6 +126,21 @@
     color: black;
 }
 
+.construcao {
+    font-family: "irishgrover";
+    color: #113612;
+    font-size: xx-large;
+    margin-left: 810px;
+    margin-top: 50px;
+}
+
+.construcao__image {
+    width: 800px;
+    margin-left: -225px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 /* @media only screen and (max-width: 600px) {
     body {
       font-size: 14px;
