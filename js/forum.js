@@ -11,21 +11,21 @@ form.addEventListener("submit", (e) => {
   const titulo = document.querySelector("#titulo").value;
   const texto = document.querySelector("textarea[name='texto']").value;
 
-  // Verifica se o título está vazio
+  // se o título está vazio
   if (titulo === "") {
     alert("O título do tópico é obrigatório.");
     e.preventDefault();
     return;
   }
 
-  // Verifica se o texto está vazio
+  // se o texto está vazio
   if (texto === "") {
     alert("O texto do tópico é obrigatório.");
     e.preventDefault();
     return;
   }
 
-  // Verifica se o título já existe
+  // caso o título já exista
   const url = `/forum/topicos/verificar-titulo?titulo=${titulo}`;
   fetch(url)
     .then((response) => response.json())
@@ -34,7 +34,7 @@ form.addEventListener("submit", (e) => {
         alert(data.mensagem);
         e.preventDefault();
       } else {
-        // Verifica se o tópico pode ser criado
+        // Verificando se o tópico pode ser criado
         const urlCriar = `/forum/topicos/criar?titulo=${titulo}&texto=${texto}`;
         fetch(urlCriar)
           .then((response) => response.json())

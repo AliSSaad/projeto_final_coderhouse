@@ -166,10 +166,10 @@ h2 {
     padding: 15px;
     background-color: #8BCF21;
     color: #054911;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
     padding: 15px;
-    border-radius: 55px;
+    border-radius: 40px;
     cursor: pointer;
     display: block;
     margin: 5px;
@@ -245,11 +245,25 @@ input[type="submit"] {
     font-size: 16px;
     font-weight: bold;
     padding: 15px;
-    border-radius: 55px;
+    border-radius: 40px;
     cursor: pointer;
     display: block;
     margin: 0 auto;
-}
+    transition: transform 0.2s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    &:focus {
+      outline: 2px solid #054911; 
+      box-shadow: 0 0 5px #054911;
+    }
+  
+    &:active {
+      transform: translateY(2px);
+    }
+  }
 
 /* Para tablets */
 @media (max-width: 768px) {
