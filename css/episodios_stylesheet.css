@@ -21,7 +21,7 @@
 @font-face {
     font-family: "OCRA";
     src: url("../assets/fonts/OCRA.TTF");
-    }
+}
 
 .menuTemp {
     font-family: "JetBrainsMono";
@@ -39,7 +39,8 @@
     transition: 1s;
 
 }
-.menuTemp ul{
+
+.menuTemp ul {
     margin: 2px;
     padding: 0;
 }
@@ -142,15 +143,104 @@
     margin-bottom: 70px;
 }
 
-/* @media only screen and (max-width: 600px) {
-    body {
-      font-size: 14px;
+@media only screen and (min-width: 0px) and (max-width:480px) {
+
+    .episodio {
+        width: 200px;
+        /* display: inline-block; */
+        margin-top: 50px;
+        margin-bottom: 20px;
+        /* margin-left: 110px; */
+        font-family: "JetBrainsMono";
+        font-size: 20px;
+        word-spacing: 10px;
+        text-align: justify;
     }
- }
+
+    .episodio img {
+        width: 200px;
+        border-radius: 25px;
+        box-shadow: 2px 2px 2px #000;
+    }
+
+    .menuTemp {
+        font-family: "JetBrainsMono";
+        font-size: small;
+        background-color: #0bb0cc;
+        box-shadow: 2px 2px 2px #000;
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        transform: translate(100px);
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin: 40px 0px 0px -40px;
+        overflow: hidden;
+        transition: 1s;
+    
+    }
+
+    .menu__temporadas {
+        width: 200px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Kopub batang;
+        padding: 0px 0px 0px 0px;
+        margin: 5px 0px 0px 0px;
+    
+    }
+    
+}
 
 
-@media only screen and (min-width: 1200px) {
-    body {
-      font-size: 18px;
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+
+    .episodio {
+        width: 300px;
+        /* display: inline-block; */
+        margin-top: 50px;
+        margin-bottom: 20px;
+        /* margin-left: 110px; */
+        font-family: "JetBrainsMono";
+        font-size: 20px;
+        word-spacing: 10px;
+        text-align: justify;
     }
-} */
+
+    .episodio img {
+        width: 300px;
+        border-radius: 25px;
+        box-shadow: 2px 2px 2px #000;
+    }
+
+    .menuTemp {
+        font-family: "JetBrainsMono";
+        font-size: small;
+        background-color: #0bb0cc;
+        box-shadow: 2px 2px 2px #000;
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        transform: translate(100px);
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin: 40px 0px 0px -10px;
+        overflow: hidden;
+        transition: 1s;
+    
+    }
+
+    .menu__temporadas {
+        width: 200px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Kopub batang;
+        padding: 0px 0px 0px 0px;
+        margin: 4px 0px 0px 0px;
+    
+    }
+    
+}
+
+    
