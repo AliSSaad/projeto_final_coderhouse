@@ -2,9 +2,10 @@
   font-family: "OCRA";
   src: url("../assets/fonts/OCRA.TTF")
 }
+
 .main {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: right;
   margin-bottom: 90px;
   padding-bottom: 100px;
@@ -12,30 +13,31 @@
 
 .h1 {
   width: 100%;
-  height: auto ;
+  height: auto;
   background-color: #e1ff00;
   justify-content: right;
   font-family: "OCRA";
-  font-style:  bold;
+  font-style: bold;
   font-weight: 100;
   font-size: x-large;
-  translate: (-1000px, 1000px);
   color: #585858;
   text-align: center;
   margin-top: -5px;
   animation-duration: 3.5s;
   animation-name: scroll;
   animation-iteration-count: infinite;
-  
+
 }
 
 @keyframes scroll {
   0% {
     opacity: 0%;
   }
-  20%{
+
+  20% {
     opacity: 0%;
   }
+
   21% {
     opacity: 100%;
   }
@@ -43,9 +45,11 @@
   95% {
     opacity: 100%;
   }
-  96%{
+
+  96% {
     opacity: 0%;
   }
+
   100% {
     opacity: 0%
   }
@@ -69,11 +73,12 @@
 .info {
   overflow: hidden;
   opacity: 50%;
-  width: 10px;
-  height: 5px;
+  width: 875;
+  max-width: 85%;
+  height: 120px;
   margin-left: 150px;
   margin-top: 65px;
-  text-align: right ;
+  text-align: right;
   background-color: #000000;
   border-top: 1;
   border: 5px solid rgb(255, 255, 255);
@@ -103,13 +108,12 @@
 }
 
 .card img:hover {
-  transform: scale(1.35); 
+  transform: scale(1.35);
   transition: 1s;
   z-index: 3;
 }
 
 .info:hover {
-  width: 90%;
   max-width: 85%;
   height: 120px;
   margin-top: 0.1%;
@@ -121,4 +125,33 @@
   color: black;
   text-align: center;
   z-index: 5;
-} 
+}
+
+@media only screen and (min-width: 0px) and (max-width:480px) {
+  .card {
+    scale: 0.85;
+  }
+
+  .info {
+    scale: 0.7;
+    margin-left: 150px;
+  }
+
+  .info:hover {
+    margin-left: 90px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+  .card {
+    scale: 0.85;
+  }
+  .info {
+    scale: 0.7;
+    margin-left: 120px;
+  }
+
+  .info:hover {
+    scale: 0.6;
+  }
+}
