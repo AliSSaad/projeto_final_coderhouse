@@ -55,7 +55,7 @@
   }
 }
 
-.card {
+.card_personagem {
   width: 92%;
   height: 160px;
   margin-top: 20px;
@@ -107,7 +107,7 @@
   overflow: visible;
 }
 
-.card img:hover {
+.card_personagem img:hover {
   transform: scale(1.35);
   transition: 1s;
   z-index: 3;
@@ -128,7 +128,7 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width:480px) {
-  .card {
+  .card_personagem {
     scale: 0.85;
   }
 
@@ -143,7 +143,7 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width:768px) {
-  .card {
+  .card_personagem {
     scale: 0.85;
   }
   .info {
