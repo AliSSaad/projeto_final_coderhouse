@@ -19,30 +19,56 @@
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
   crossorigin="anonymous"
 ></script>
-  <link rel="stylesheet" href="../css/layout_stylesheet.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="../css/layout_stylesheet.css" />
 </head>
 
 <body>
   <header>
-    <div class="capa">
-      <img src="../assets\images\originais\capa_projeto2.png" />
-      <div class="ancora">
-        <a href="../index.html">
-          <img src="../assets\images\originais\ancora.png" />
+    <div class="capa container-fluid">
+      <img class="img-fluid" src="../assets\images\originais\capa_projeto2.png" />
+      <img class="img-fluid ancora" src="../assets\images\originais\ancora.png" />
+    </div>  
+    <ul class="menu_padrao">
+      <a class="menu_padrao_botao" href="../index.html">
+        <li>Inicio</li>
+      </a>
+      <a class="menu_padrao_botao" href="paginas_episodios/episodios_temporada_um.html">
+        <li>Episodios</li>
+      </a>
+      <a class="menu_padrao_botao" href="personagens.html">
+        <li>Personagens</li>
+      </a>
+      <a class="menu_padrao_botao" href="forum.html">
+        <li>Forum</li>
+      </a>
+      <a class="menu_padrao_botao" href="galeria.html">
+        <li>Galeria</li>
+      </a>
+      <a class="menu_padrao_botao" href="contatos_inicio.html">
+        <li>Contatos</li>
+      </a>
+    </ul>
+    <div class="menu_mobile">
+      <p class="d-inline-flex gap-1 botao_descricao_padrao">
+        <a class="btn btn-primary botao_menu_mobile" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <i class="fa-solid fa-bars"></i> Menu
         </a>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body menu_mobile">
+            <a href="../index.html"><li>Inicio</li></a>
+            <a href="paginas_episodios/episodios_temporada_um.html"><li>Episodios</li></a>
+            <a href="personagens.html"><li>Personagens</li>
+            </a>
+            <a href="forum.html"><li>Forum</li></a>
+            <a href="galeria.html"><li>Galeria</li></a>
+            <a href="contatos_inicio.html"><li>Contatos</li></a>
+        </div>
       </div>
-      <nav class="navegador">
-        <a href="../index.html"><button>Inicio</button></a>
-        <a href="paginas_episodios/episodios_temporada_um.html"><button>Episodios</button></a>
-        <a href="personagens.html">
-          <button>Personagens</button>
-        </a>
-        <a href="forum.html"><button>Forum</button></a>
-        <a href="galeria.html"><button>Galeria</button></a>
-        <a href="contatos_inicio.html"><button>Contatos</button></a>
-      </nav>
+    </div>
   </header>
-  <main class="conteudo">
+  <main class="conteudo container-fluid">
     <!-- Dentro da Tag Main vai ficar todo nosso conteudo unico, e tudo que está fora é o que vai se repetir em todas as paginas -->
     <!-- Aqui são so exemplos de algumas tags que deixei -->
     <section class="conteudo__esquerda">
@@ -68,94 +94,106 @@
         ou qualquer outra forma de conteúdo independente.
       </article>
     </section>
-    <aside class="conteudo__direita">
-      <p>
-        Aqui vai ficar o aside da pagina, conteudo do lado direito do
-        container principal da pagina
-      </p>
-    </aside>
-    <!-- Até aqui pode ser deletado para colocar o html do conteudo da pagina-->
   </main>
-  <footer class="footer">
-    <div class="coderhouselinks">
-      <p>Desenvolvimento Web Turma: 50575: grupo 5 - 23/24</p>
-    </div>
-    <div class="line"></div>
-    <div class="coderhouselinks">
-      <p>Links dos Desenvolvedores:</p>
-    </div>
-    <div>
-      <a
-        class="coderhouselink1"
-        href="https://www.coderhouse.com.br/"
-        target="_blank"
-      >
-        <img src="../assets/images/logos_coderhouse.png" alt="coderlogo"
-      /></a>
-    </div>
+  <footer class="footer_box">
 
-    <div class="footer__icones">
+    
+    <div class="footer_coderHouse_img">
+      <a
+      href="https://www.coderhouse.com.br/"
+      target="_blank"
+      >
+      <img 
+      class="img-fluid logo_coderHouse" 
+      src="../assets/images/logos_coderhouse.png" 
+      alt="coderlogo"
+      />
+      </a>
+      <hr id="linha_footer">
+      <p id="turma_descricao">Desenvolvimento Web Turma: 50575: Grupo 5</p>
+    </div>
+  
+
+    <div class="footer_contatos">
       <!-- Ali Saad -->
-      <figure>
-        <figcaption>Ali Saad</figcaption>
-        <a href="https://www.instagram.com/alissaad90/" target="_blank">
-          <img src="../assets/icons/icone_instagram.png" />
-        </a>
-        <a href="https://www.linkedin.com/in/ali-ssaad/" target="_blank">
-          <img src="../assets/icons/icone_linkedin.png" />
-        </a>
-      </figure>
-      <!-- Lucelia Ribeiro -->
-      <figure>
-        <figcaption>Lucélia Ribeiro</figcaption>
-        <a href="https://instagram.com/lucelia.a.r" target="_blank">
-          <img src="../assets/icons/icone_instagram.png" />
-        </a>
-        <a href="https://www.linkedin.com/in/lucelia-ribeiro" target="_blank">
-          <img src="../assets/icons/icone_linkedin.png" />
-        </a>
-      </figure>
-      <!-- Gregorio de Abreu -->
-      <figure>
-        <figcaption>Gregorio de Abreu</figcaption>
-        <a href="https://instagram.com/gregoriodeabreu" target="_blank">
-          <img src="../assets/icons/icone_instagram.png" />
-        </a>
-        <a
+      <div class="footer_cards">
+        <h3>Ali Saad</h3>
+        <div class="footer_icones">
+          <a href="https://www.instagram.com/alissaad90/" target="_blank">
+            <img src="../assets/icons/icone_instagram.png" />
+          </a>
+          <a href="https://www.linkedin.com/in/ali-ssaad/" target="_blank">
+            <img src="../assets/icons/icone_linkedin.png" />
+          </a>
+        </div>
+      </div>
+        <!-- Lucelia Ribeiro -->
+      <div class="footer_cards">
+        <h3>Lucélia Ribeiro</h3>
+
+        <div class="footer_icones">
+          <a href="https://instagram.com/lucelia.a.r" target="_blank">
+            <img src="../assets/icons/icone_instagram.png" />
+          </a>
+          <a href="https://www.linkedin.com/in/lucelia-ribeiro" target="_blank">
+            <img src="../assets/icons/icone_linkedin.png" />
+          </a>
+        </div>
+      </div>
+        <!-- Gregorio de Abreu -->
+      <div class="footer_cards">
+        <h3>Gregorio de Abreu</h3>
+
+        <div class="footer_icones">
+          <a
+          href="https://instagram.com/gregoriodeabreu"
+          target="_blank">
+            <img src="../assets/icons/icone_instagram.png" />
+          </a>
+          <a
           href="https://www.linkedin.com/in/gregorio-abreu-920623104"
           target="_blank"
-        >
-          <img src="../assets/icons/icone_linkedin.png" />
-        </a>
-      </figure>
+          >
+            <img src="../assets/icons/icone_linkedin.png" />
+          </a>
+        </div>
+    </div>
       <!-- Hugo Benevides -->
-      <figure>
-        <figcaption>Hugo Benevides</figcaption>
-        <a href="https://instagram.com/cromocronos_tattoo" target="_blank">
-          <img src="../assets/icons/icone_instagram.png" />
-        </a>
-        <a
+      <div class="footer_cards">
+        <h3>Hugo Benevides</h3>
+
+        <div class="footer_icones">
+          <a href="https://instagram.com/cromocronos_tattoo" target="_blank">
+            <img src="../assets/icons/icone_instagram.png" />
+          </a>
+          <a
           href="https://www.linkedin.com/in/hugo-benevides-734327294"
           target="_blank"
-        >
+          >
           <img src="../assets/icons/icone_linkedin.png" />
-        </a>
-      </figure>
+                </a>
+        </div>
+      </div>
       <!-- Herbert Chagas -->
-      <figure>
-        <figcaption>Herbert Chagas</figcaption>
-        <a href="https://instagram.com/herb_co" target="_blank">
-          <img src="../assets/icons/icone_instagram.png" />
-        </a>
-        <a
+      <div class="footer_cards">
+        <h3>Herbert Chagas</h3>
+        <div class="footer_icones">
+          <a href="https://instagram.com/herb_co" target="_blank">
+            <img src="../assets/icons/icone_instagram.png" />
+          </a>
+          <a
           href="https://br.linkedin.com/in/herbert-chagas-de-oliveira-a46a10a0"
           target="_blank"
-        >
+          >
           <img src="../assets/icons/icone_linkedin.png" />
-        </a>
-      </figure>
+                </a>
+        </div>
+      </div>
     </div>
-    <div class="copyright">&copy; 2023 Rick and Morty Fan Zite</div>
+
+    <div class="footer_copyright">&copy; 2023 Rick and Morty Fan Zite</div>
+  
+  
   </footer>
 
 </body>

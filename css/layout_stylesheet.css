@@ -17,7 +17,195 @@ header {
   overflow-x: hidden;
 }
 
-body {
+.capa{
+  position: relative;
+  width: 100%;
+}
+.footer_box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    font-family: "OCRA";
+    color: #e2ff00;
+    background-color: #484848;
+}
+
+.ancora{
+  width: 100%;
+  position: absolute;
+  top: -150%;
+  left: -40%;
+  scale: 0.2;
+}
+.card-group{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.card-youtube{
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+}
+.esquerda__logoYoutube img{
+  width: 10%;
+  
+}
+#linha_footer{
+  position: absolute;
+  background-color: white;
+  width: 98%;
+  height: 2px;
+  bottom: 15%;
+}
+#turma_descricao{
+  position: absolute;
+  bottom: 15%;
+  left: 65%;
+  padding: 20px;
+}
+.footer_coderHouse_img{
+  position: relative;
+}
+.footer_coderHouse_img img{
+  position: relative;
+  z-index: 100;
+}
+.footer_contatos{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer_contatos a{
+  text-decoration: none;
+}
+.footer_copyright {
+  align-self: flex-end;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
+  color: #e2ff00;
+  text-shadow: 1.5px 1.5px 1.5px rgb(0, 0, 0);
+  text-align: center;
+}
+.footer_informacoes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu_padrao{
+  position: relative;
+  display: flex;
+  padding: 5px 5px 5px 5px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  top: 20px;
+  background-color: #e1ff0015;
+}
+.menu_padrao a{
+  text-decoration: none;
+}
+.menu_padrao_botao{
+  text-align: center;
+  list-style: none;
+  font-family: "OCRA";
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: #2f9331;
+  border-color: #2f9331;
+  border-style: ridge;
+  transition: 1s all;
+  text-shadow: 1.5px 1.5px 1.5px black;
+  margin-left: 2px;
+  width: 100%;
+}
+
+.menu_padrao_botao:hover {
+  transform: scale(110%);
+  background-color: #318833;
+  opacity: 95%;
+}
+
+
+.menu_mobile{
+  display: flex;
+  padding: 8px 8px 8px 8px;
+  flex-direction: column;
+  justify-content: center;
+  visibility: hidden;
+  height: auto;
+  background-color: #cee8c0;
+  text-align: center;
+}
+.menu_mobile li{
+  text-align: center;
+  list-style: none;
+  font-family: "OCRA";
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: #2f9331;
+  border-color: #2f9331;
+  border-style: ridge;
+  transition: 1s all;
+  text-shadow: 1.5px 1.5px 1.5px black;
+}
+.menu_mobile li:hover{
+  opacity: 80%;
+}
+.menu_mobile a{
+  text-decoration: none;
+}
+.botao_descricao_padrao{
+  width: 100%;
+  margin-top: 20px;
+  height: auto;
+}
+
+.botao_menu_mobile{
+  width: 100%;
+  flex-grow: 1;
+  align-self: center;
+  border: #2f9331;
+  background-color: #2f9331;
+}
+.botao_menu_mobile:hover{
+  background-color: #318833;
+  opacity: 110%;
+}
+@media screen and (max-width: 1350px){
+  .footer_contatos{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_cards{
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  .footer_icones{
+    margin-left: 20px;
+  }
+  #turma_descricao{
+    visibility: hidden;
+  }
+  .menu_mobile{
+    visibility: visible;
+  }
+  .menu_padrao{
+    display: none;
+  }
+}
+
+
+/* body {
   display: grid;
   grid-template-areas:
     "header"
@@ -25,8 +213,8 @@ body {
     "footer";
   grid-template-columns: 100%;
   grid-template-rows: auto auto 1fr;
-}
-
+} */
+/* 
 .ancora img {
   scale: 0.26;
   align-items: left;
@@ -34,26 +222,22 @@ body {
   margin-bottom: -33%;
   margin-left: -37%;
 }
-
 .capa img {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 25%;
+  height: auto;
   z-index: 0;
 }
 
 .navegador {
+  visibility: hidden;
   background-color: #e1ff0015;
   position: relative;
   z-index: 3;
-  transform: translate(10px, -25px);
   width: 100%;
   height: 75px;
-  margin-top: -25px;
-  margin-right: -2%;
-  margin-bottom: -15px;
-  position: static;
+  position: absolute;
 }
 
 .navegador a {
@@ -112,16 +296,6 @@ body {
   margin-left: 15px;
   margin-bottom: 50px;
 }
-.footer {
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  font-family: "OCRA";
-  color: #e2ff00;
-  background-color: #484848;
-  margin-top: 2%;
-  bottom: 0;
-}
 
 .coderhouselinks {
   font-family: "OCRA";
@@ -138,6 +312,16 @@ body {
   margin-top: 50px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  font-family: "OCRA";
+  color: #e2ff00;
+  background-color: #484848;
+  margin-top: 2%;
+  bottom: 0;
+}
 .footer__icones {
   display: flex;
   flex: row;
@@ -173,3 +357,23 @@ body {
   text-shadow: 1.5px 1.5px 1.5px rgb(0, 0, 0);
   text-align: center;
 }
+.menu_mobile{
+  background-color: #2f9331;
+}
+
+.menu_mobile li{
+  text-decoration: none;
+  color: white;
+}
+
+.botao_menu_mobile{
+  border: #2f9331;
+  width: 100%;
+  background-color: #2f9331;
+}
+.botao_menu_mobile:hover{
+  background-color: #318833;
+}
+@media screen and (max-width: 600px){
+
+} */
