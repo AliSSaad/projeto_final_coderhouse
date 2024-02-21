@@ -46,7 +46,7 @@
 }
 
 .menuTemp:hover {
-    height: 330px;
+    height: 110px;
 }
 
 .menuTemp li {
@@ -156,7 +156,7 @@
 }
 @media screen and (max-width:1024px) {
     .menuTemp{
-        height: 330px;
+        height: 110px;
     }
 }
 @media only screen and (min-width: 769px) and (max-width:900px) {
