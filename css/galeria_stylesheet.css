@@ -48,7 +48,19 @@
   }
   /* Outros estilos para telas menores */
 }
-
+@media screen and (max-width:1024px) {
+  .galeria img{
+    width: 40%;
+  }
+}
+@media screen and (max-width:768px) {
+  .galeria{
+    justify-content: center;
+  }
+  .galeria img{
+    width: 60%;
+  }
+}
 /* Media query para telas maiores */
 @media only screen and (min-width: 1200px) {
   body {

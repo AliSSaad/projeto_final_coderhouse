@@ -19,7 +19,7 @@
   font-family: "OCRA";
   font-style: bold;
   font-weight: 100;
-  font-size: x-large;
+  font-size: 20px;
   color: #585858;
   text-align: center;
   margin-top: -5px;
@@ -56,8 +56,6 @@
 }
 
 .card_personagem {
-  width: 92%;
-  height: 160px;
   margin-top: 20px;
   margin-left: 5%;
   margin-right: 5%;
@@ -73,9 +71,6 @@
 .info {
   overflow: hidden;
   opacity: 50%;
-  width: 875;
-  max-width: 85%;
-  height: 120px;
   margin-left: 150px;
   margin-top: 65px;
   text-align: right;
@@ -83,23 +78,26 @@
   border-top: 1;
   border: 5px solid rgb(255, 255, 255);
   border-radius: 10px;
-  padding-top: 5px;
-  padding-right: 0px;
-  padding-left: 0px;
+  padding: 5px 0px 0px 0px;
   display: block;
   justify-content: space-around;
   font-family: "OCRA";
   font-style: italic;
-  font-size: medium;
+  font-size: 10px;
   color: rgba(0, 0, 0, 0);
-  font-weight: 100;
+  font-weight: 50px;
   line-height: 1.5;
   z-index: 4;
 }
-
+.info h3{
+  font-size: 25px;
+}
+.info h4{
+  font-size: 20px;
+}
 .img {
   width: 180px;
-  height: 110%;
+  height: auto;
   margin-top: -15px;
   margin-left: -30px;
   position: absolute;
@@ -113,32 +111,16 @@
   z-index: 3;
 }
 
-.info:hover {
-  max-width: 85%;
-  height: 120px;
-  margin-top: 0.1%;
-  padding: 1% 1% 1% 1%;
-  opacity: 90%;
-  background-color: #e2ff00;
-  border-color: rgb(114, 114, 114);
-  transition: all 0.5s;
-  color: black;
-  text-align: center;
-  z-index: 5;
-}
-
 @media only screen and (min-width: 0px) and (max-width:480px) {
   .card_personagem {
     scale: 0.85;
   }
 
   .info {
+    color: black;
+    background-color: #e2ff00;
     scale: 0.7;
     margin-left: 150px;
-  }
-
-  .info:hover {
-    margin-left: 90px;
   }
 }
 
@@ -149,9 +131,27 @@
   .info {
     scale: 0.7;
     margin-left: 120px;
+    margin-top: 0px;
   }
-
+}
+@media only screen and (max-width: 1000px){
+  .info {
+    color: black;
+    background-color: #e2ff00;
+  }
+}
+@media screen and (min-width: 1000px){
   .info:hover {
-    scale: 0.6;
+    width: 85%;
+    height: 100%;
+    margin-top: 0.1%;
+    padding: 1% 1% 1% 1%;
+    opacity: 90%;
+    background-color: #e2ff00;
+    border-color: rgb(114, 114, 114);
+    transition: all 0.5s;
+    color: black;
+    text-align: center;
+    z-index: 5;
   }
 }
