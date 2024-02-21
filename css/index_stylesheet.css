@@ -68,16 +68,21 @@
   height: 3050px;
 }
 .card-body{
-    background-color: #cee8c0;
+    background-color: transparent;
 } 
 .card-youtube{
   width: 100%;
-  background-color: #cee8c0;
+  background-color: transparent;
 }
 .card-youtube:hover{
     background-color: white;
 }
-.card-body:hover{
+.selection{
+  border: none;
+  border-width: 0.1px;
+  background-color: #cee8c0;
+}
+.selection:hover{
   background-color: white;
 }
 @media screen and (max-width: 1350px){
@@ -106,10 +111,13 @@
     margin-bottom: 0px;
   }
   .inicio__boasVindas h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .esquerda__inicio{
     flex-direction: column;
+  }
+  .conteudo__esquerda h2{
+    font-size: 30px;
   }
   .inicio__boasVindas p {
     font-size: 15px;
