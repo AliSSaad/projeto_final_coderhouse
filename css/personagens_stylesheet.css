@@ -120,7 +120,7 @@
     color: black;
     background-color: #e2ff00;
     scale: 0.7;
-    margin-left: 150px;
+    margin : 0px 0px 0px 50px;
   }
 }
 
@@ -135,8 +135,16 @@
   }
 }
 @media only screen and (max-width: 1000px){
+  .info h3{
+    font-size: 20px;
+  }
+  .info h4{
+    font-size: 15px;
+  }
   .info {
+    margin-left: 100px;
     color: black;
+    opacity: 90%;
     background-color: #e2ff00;
   }
 }

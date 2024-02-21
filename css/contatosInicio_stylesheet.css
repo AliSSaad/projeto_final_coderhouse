@@ -4,7 +4,12 @@
 }
 main{
   width: 100%;
-  height: auto;
+  height: 100%;
+}
+@media screen and (max-width : 560px) {
+  .h1 h1{
+    font-size: 15px;
+  }
 }
 .h1 {
   position: absolute;
@@ -14,7 +19,7 @@ main{
   width: 50%;
   font-family: "OCRA";
   color: #eaff00;
-  font-size: 35px;
+  font-size: 30px;
   font-style: bold;
   text-shadow: 3px 3px 3px rgb(0, 0, 0);
 }
