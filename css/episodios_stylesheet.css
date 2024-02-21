@@ -242,5 +242,18 @@
     }
     
 }
+@media only screen and (min-width: 2495px){
+    .episodio {
+        width: 30%;
+        /* display: inline-block; */
+        margin-top: 50px;
+        margin-bottom: 20px;
+        /* margin-left: 110px; */
+        font-family: "JetBrainsMono";
+        font-size: 20px;
+        word-spacing: 10px;
+        text-align: justify;
+    }
+}
 
     
