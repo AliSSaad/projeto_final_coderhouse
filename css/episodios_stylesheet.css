@@ -26,7 +26,7 @@
 .menuTemp {
     font-family: "JetBrainsMono";
     font-size: small;
-    background-color: #0bb0cc;
+    background-color: #2f9331;
     box-shadow: 2px 2px 2px #000;
     width: 250px;
     height: 50px;
@@ -34,7 +34,7 @@
     transform: translate(100px);
     text-align: center;
     padding: 5px 5px 5px 5px;
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     overflow: hidden;
     transition: 1s;
 
@@ -54,6 +54,10 @@
     font-family: "OCRA";
 }
 
+.menuTemp li:hover{
+    opacity: 40%;
+}
+
 .menuTemp li a {
     font-size: 20px;
     text-decoration: none;
@@ -65,7 +69,6 @@
 }
 
 .menu__temporadas {
-    width: 200px;
     font-size: 20px;
     font-weight: bold;
     font-family: Kopub batang;
@@ -91,11 +94,8 @@
 }
 
 .episodio {
-    width: 500px;
-    /* display: inline-block; */
     margin-top: 50px;
     margin-bottom: 20px;
-    /* margin-left: 110px; */
     font-family: "JetBrainsMono";
     font-size: 20px;
     word-spacing: 10px;
@@ -103,7 +103,6 @@
 }
 
 .episodio img {
-    width: 500px;
     border-radius: 25px;
     box-shadow: 2px 2px 2px #000;
 
@@ -143,117 +142,56 @@
     margin-bottom: 70px;
 }
 
-@media only screen and (min-width: 0px) and (max-width:480px) {
+@media only screen and (max-width:768px) {
 
     .episodio {
-        width: 200px;
-        /* display: inline-block; */
-        margin-top: 50px;
-        margin-bottom: 20px;
-        /* margin-left: 110px; */
-        font-family: "JetBrainsMono";
-        font-size: 20px;
-        word-spacing: 10px;
+        width:300px;
         text-align: justify;
     }
 
     .episodio img {
-        width: 200px;
-        border-radius: 25px;
-        box-shadow: 2px 2px 2px #000;
-    }
-
-    .menuTemp {
-        font-family: "JetBrainsMono";
-        font-size: small;
-        background-color: #0bb0cc;
-        box-shadow: 2px 2px 2px #000;
-        width: 200px;
-        height: 50px;
-        border-radius: 10px;
-        transform: translate(100px);
-        text-align: center;
-        padding: 5px 5px 5px 5px;
-        margin: 40px 0px 0px -40px;
-        overflow: hidden;
-        transition: 1s;
-    
-    }
-
-    .menu__temporadas {
-        width: 200px;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: Kopub batang;
-        padding: 0px 0px 0px 0px;
-        margin: 5px 0px 0px 0px;
-    
+        width: 300px;
     }
     
 }
-
-
-
-@media only screen and (min-width: 481px) and (max-width:768px) {
+@media screen and (max-width:1024px) {
+    .menuTemp{
+        height: 330px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width:900px) {
 
     .episodio {
         width: 300px;
-        /* display: inline-block; */
-        margin-top: 50px;
-        margin-bottom: 20px;
-        /* margin-left: 110px; */
-        font-family: "JetBrainsMono";
-        font-size: 20px;
         word-spacing: 10px;
         text-align: justify;
     }
 
     .episodio img {
         width: 300px;
-        border-radius: 25px;
-        box-shadow: 2px 2px 2px #000;
-    }
-
-    .menuTemp {
-        font-family: "JetBrainsMono";
-        font-size: small;
-        background-color: #0bb0cc;
-        box-shadow: 2px 2px 2px #000;
-        width: 200px;
-        height: 50px;
-        border-radius: 10px;
-        transform: translate(100px);
-        text-align: center;
-        padding: 5px 5px 5px 5px;
-        margin: 40px 0px 0px -10px;
-        overflow: hidden;
-        transition: 1s;
-    
-    }
-
-    .menu__temporadas {
-        width: 200px;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: Kopub batang;
-        padding: 0px 0px 0px 0px;
-        margin: 4px 0px 0px 0px;
-    
     }
     
 }
-@media only screen and (min-width: 2495px){
+@media only screen and (min-width: 901px) and (max-width:1995px) {
+    
     .episodio {
-        width: 30%;
-        /* display: inline-block; */
-        margin-top: 50px;
-        margin-bottom: 20px;
-        /* margin-left: 110px; */
-        font-family: "JetBrainsMono";
-        font-size: 20px;
+        width: 400px;
         word-spacing: 10px;
         text-align: justify;
     }
-}
 
-    
+    .episodio img {
+        width: 400px;
+    }
+}
+@media only screen and (min-width: 1995px) {
+    .episodio {
+        width: 800px;
+        word-spacing: 10px;
+        text-align: justify;
+    }
+
+    .episodio img {
+        width: 800px;
+    }
+}

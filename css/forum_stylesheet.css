@@ -265,6 +265,7 @@ input[type="submit"] {
 @media (max-width: 768px) {
     main {
         flex-direction: column;
+        justify-content: center;
     }
 
     .coluna__esquerda,
@@ -302,6 +303,10 @@ input[type="submit"] {
         font-size: 16px;
     }
 
+    .form__resposta{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
     .form__resposta textarea {
         height: 60px;
     }
