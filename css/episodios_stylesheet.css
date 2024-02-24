@@ -88,12 +88,15 @@
 .episodio {
     margin-top: 50px;
     margin-bottom: 20px;
+    border-radius: 10px;
     font-family: "JetBrainsMono";
     font-size: 20px;
     word-spacing: 10px;
     text-align: justify;
 }
-
+.episodio:hover{
+    background-color: white;
+}
 .episodio img {
     border-radius: 25px;
     box-shadow: 2px 2px 2px #000;
@@ -106,6 +109,7 @@
 }
 
 .episodio__descricao {
+    padding: 15px 15px 15px 15px;
     margin-top: 10px;
     margin-bottom: 20px;
     word-spacing: 10px;
@@ -113,6 +117,7 @@
 }
 
 .episodio__titulo {
+    padding: 15px 15px 15px 15px;
     margin-top: 10px;
     margin-bottom: 30px;
     color: black;
